@@ -484,51 +484,51 @@ they represent appearance over time and are part of the wider 4DGS ecosystem.
 
 Benchmarks used for training or evaluation by at least eight scope-audited direct dynamic-Gaussian papers. Names are
 normalized across common aliases; **Data / Project** points to an official source when one is
-available. Lower-adoption datasets remain searchable in the JSON and SQLite metadata; citation-only mentions do not count.
+available. **Scale** preserves source-reported units because a frame may mean a timestamp, per-camera image, or aggregate count. Lower-adoption datasets remain searchable in the JSON and SQLite metadata; citation-only mentions do not count.
 
-| Dataset | Direct 4DGS papers | Typical benchmark scope | Reference | Data / Project |
-| --- | ---: | --- | --- | --- |
-| Neural 3D Video | 109 | Synchronized multi-view dynamic scenes | [Neural 3D Video Synthesis from Multi-view Video](https://arxiv.org/abs/2103.02597) | [Official page](https://neural-3d-video.github.io/) |
-| D-NeRF | 51 | Synthetic monocular dynamic scenes | [D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://arxiv.org/abs/2011.13961) | [Official page](https://www.albertpumarola.com/research/D-NeRF/index.html) |
-| HyperNeRF | 47 | Casual monocular non-rigid and topology-changing scenes | [HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields](https://arxiv.org/abs/2106.13228) | [Official page](https://hypernerf.github.io/) |
-| DyCheck iPhone | 33 | Casual monocular dynamic iPhone captures | [Monocular Dynamic View Synthesis: A Reality Check](https://arxiv.org/abs/2210.13445) | [Official page](https://kair-bair.github.io/dycheck/) |
-| MeetRoom | 23 | Long-duration multi-view indoor free-viewpoint video | [Streaming Radiance Fields for 3D Video Synthesis](https://arxiv.org/abs/2210.14831) | [Official page](https://github.com/AlgoHunt/StreamRF) |
-| Technicolor | 20 | Synchronized multi-view light-field video | [Dataset and Pipeline for Multi-View Light-Field Video](https://doi.org/10.1109/CVPRW.2017.221) | [Official page](https://www.interdigital.com/data_sets/light-field-dataset) |
-| NeRF-DS | 18 | Monocular dynamic scenes with specular objects | [NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects](https://arxiv.org/abs/2303.14435) | [Official page](https://jokeryan.github.io/projects/nerf-ds/) |
-| NVIDIA Dynamic Scenes | 18 | Monocular real-world dynamic-scene videos | [Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths from a Monocular Camera](https://arxiv.org/abs/2004.01294) | [Official page](https://research.nvidia.com/publication/2020-06_novel-view-synthesis-dynamic-scenes-globally-coherent-depths) |
-| PanopticSports | 14 | Prepared multi-view sports sequences with 3D tracks | [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](https://arxiv.org/abs/2308.09713) | [Official page](https://dynamic3dgaussians.github.io/) |
-| Waymo Open | 13 | Autonomous-driving camera and LiDAR sequences | [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) | [Official page](https://waymo.com/open/) |
-| ZJU-MoCap | 12 | Calibrated multi-view articulated-human performances | [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://arxiv.org/abs/2012.15838)<br>[Efficient Neural Radiance Fields for Interactive Free-viewpoint Video](https://arxiv.org/abs/2112.01517) | [Official page](https://github.com/zju3dv/EasyMocap) |
-| Google Immersive | 10 | Immersive multi-view light-field video | [Immersive Light Field Video with a Layered Mesh Representation](https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf) | [Official page](https://augmentedperception.github.io/deepviewvideo/) |
-| PeopleSnapshot | 10 | Monocular videos of clothed people rotating in place | [Video Based Reconstruction of 3D People Models](https://arxiv.org/abs/1803.04758) |  |
-| Bonn RGB-D Dynamic | 9 | Dynamic RGB-D sequences for tracking and SLAM | [ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals](https://arxiv.org/abs/1905.02082) | [Official page](https://www.ipb.uni-bonn.de/data/rgbd-dynamic-dataset/) |
-| NeRSemble | 9 | High-resolution multi-view facial performances | [NeRSemble: Multi-view Radiance Field Reconstruction of Human Heads](https://arxiv.org/abs/2305.03027) | [Official page](https://tobias-kirschstein.github.io/nersemble/) |
-| ActorsHQ | 8 | High-resolution multi-view human performances | [HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion](https://arxiv.org/abs/2305.06356) | [Official page](https://actors-hq.com/) |
-| NeuMan | 8 | Monocular people moving through real environments | [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/abs/2203.12575) | [Official page](https://machinelearning.apple.com/research/neural-human-radiance-field) |
-| nuScenes | 8 | Autonomous-driving camera and LiDAR sequences | [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027) | [Official page](https://www.nuscenes.org/) |
-| TUM RGB-D | 8 | RGB-D sequences with camera-pose ground truth | [A Benchmark for the Evaluation of RGB-D SLAM Systems](https://cvg.cit.tum.de/_media/spezial/bib/sturm12iros.pdf) | [Official page](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) |
+| Dataset | Direct 4DGS papers | Typical benchmark scope | Scale | Reference | Data / Project |
+| --- | ---: | --- | --- | --- | --- |
+| Neural 3D Video | 109 | Synchronized multi-view dynamic scenes | 6 scenes · 300-frame clips · 18–21 cameras · 2704×2028 @ 30 FPS | [Neural 3D Video Synthesis from Multi-view Video](https://arxiv.org/abs/2103.02597) | [Official page](https://neural-3d-video.github.io/) |
+| D-NeRF | 51 | Synthetic monocular dynamic scenes | 8 scenes · 50–200 train + 20 test images · 800×800 | [D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://arxiv.org/abs/2011.13961) | [Official page](https://www.albertpumarola.com/research/D-NeRF/index.html) |
+| HyperNeRF | 47 | Casual monocular non-rigid and topology-changing scenes | 17 scenes · monocular captures · validation rigs | [HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields](https://arxiv.org/abs/2106.13228) | [Official page](https://hypernerf.github.io/) |
+| DyCheck iPhone | 33 | Casual monocular dynamic iPhone captures | 14 sequences · 7 with multi-camera validation | [Monocular Dynamic View Synthesis: A Reality Check](https://arxiv.org/abs/2210.13445) | [Official page](https://kair-bair.github.io/dycheck/) |
+| MeetRoom | 23 | Long-duration multi-view indoor free-viewpoint video | 3 scenes · 300 frames each · 13 cameras · 1280×720 | [Streaming Radiance Fields for 3D Video Synthesis](https://arxiv.org/abs/2210.14831) | [Official page](https://github.com/AlgoHunt/StreamRF) |
+| Technicolor | 20 | Synchronized multi-view light-field video | 16 cameras (4×4) · 2048×1088 · 30 FPS | [Dataset and Pipeline for Multi-View Light-Field Video](https://doi.org/10.1109/CVPRW.2017.221) | [Official page](https://www.interdigital.com/data_sets/light-field-dataset) |
+| NeRF-DS | 18 | Monocular dynamic scenes with specular objects | 8 scenes · 2 cameras · ~500 frames/video · 480×270 | [NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects](https://arxiv.org/abs/2303.14435) | [Official page](https://jokeryan.github.io/projects/nerf-ds/) |
+| NVIDIA Dynamic Scenes | 18 | Monocular real-world dynamic-scene videos | 8 real-world sequences · monocular | [Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths from a Monocular Camera](https://arxiv.org/abs/2004.01294) | [Official page](https://research.nvidia.com/publication/2020-06_novel-view-synthesis-dynamic-scenes-globally-coherent-depths) |
+| PanopticSports | 14 | Prepared multi-view sports sequences with 3D tracks | 6 sequences · 150 frames each · 31 cameras | [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](https://arxiv.org/abs/2308.09713) | [Official page](https://dynamic3dgaussians.github.io/) |
+| Waymo Open | 13 | Autonomous-driving camera and LiDAR sequences | 2,030 perception segments · 5 cameras · 20 s each | [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) | [Official page](https://waymo.com/open/) |
+| ZJU-MoCap | 12 | Calibrated multi-view articulated-human performances | 10 subjects · 23 synchronized cameras | [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://arxiv.org/abs/2012.15838)<br>[Efficient Neural Radiance Fields for Interactive Free-viewpoint Video](https://arxiv.org/abs/2112.01517) | [Official page](https://github.com/zju3dv/EasyMocap) |
+| Google Immersive | 10 | Immersive multi-view light-field video | 46 cameras · 30 FPS · >220° field of view | [Immersive Light Field Video with a Layered Mesh Representation](https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf) | [Official page](https://augmentedperception.github.io/deepviewvideo/) |
+| PeopleSnapshot | 10 | Monocular videos of clothed people rotating in place | 24 sequences · 11 subjects · 300–800 frames each | [Video Based Reconstruction of 3D People Models](https://arxiv.org/abs/1803.04758) |  |
+| Bonn RGB-D Dynamic | 9 | Dynamic RGB-D sequences for tracking and SLAM | 26 sequences · monocular RGB-D · 640×480 | [ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals](https://arxiv.org/abs/1905.02082) | [Official page](https://www.ipb.uni-bonn.de/data/rgbd-dynamic-dataset/) |
+| NeRSemble | 9 | High-resolution multi-view facial performances | >4,700 sequences · >220 subjects · 16 cameras | [NeRSemble: Multi-view Radiance Field Reconstruction of Human Heads](https://arxiv.org/abs/2305.03027) | [Official page](https://tobias-kirschstein.github.io/nersemble/) |
+| ActorsHQ | 8 | High-resolution multi-view human performances | 16 sequences · 39,765 frames · 160 cameras | [HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion](https://arxiv.org/abs/2305.06356) | [Official page](https://actors-hq.com/) |
+| NeuMan | 8 | Monocular people moving through real environments | Monocular clips · approximately 10 s each | [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/abs/2203.12575) | [Official page](https://machinelearning.apple.com/research/neural-human-radiance-field) |
+| nuScenes | 8 | Autonomous-driving camera and LiDAR sequences | 1,000 scenes · 1.4M images · 6 cameras · 20 s each | [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027) | [Official page](https://www.nuscenes.org/) |
+| TUM RGB-D | 8 | RGB-D sequences with camera-pose ground truth | 39 sequences · RGB-D · 640×480 · 30 FPS | [A Benchmark for the Evaluation of RGB-D SLAM Systems](https://cvg.cit.tum.de/_media/spezial/bib/sturm12iros.pdf) | [Official page](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) |
 
 ### External benchmark watchlist
 
 External datasets with verified direct dynamic-Gaussian use but fewer than eight adopting papers. Their NeRF or representation-agnostic source papers are not promoted to the method catalog at this tier.
 
-| Dataset | Direct 4DGS papers | Adoption | Reference | Data / Project |
-| --- | ---: | --- | --- | --- |
-| DNA-Rendering | 5 | emerging | [DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering](https://arxiv.org/abs/2307.10173) | [Official page](https://dna-rendering.github.io/) |
-| Nerfies | 5 | emerging | [Nerfies: Deformable Neural Radiance Fields](https://arxiv.org/abs/2011.12948) | [Official page](https://nerfies.github.io/) |
-| DAVIS | 4 | emerging | [A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation](https://doi.org/10.1109/CVPR.2016.85) | [Official page](https://davischallenge.org/) |
-| DiVa-360 | 1 | observed | [DiVa-360: The Dynamic Visual Dataset for Immersive Neural Fields](https://arxiv.org/abs/2307.16897) | [Official page](https://ivl.cs.brown.edu/research/diva.html) |
-| Dynamic Furry Animal | 1 | observed | [Artemis: Articulated Neural Pets with Appearance and Motion Synthesis](https://arxiv.org/abs/2202.05628) | [Official page](https://haiminluo.github.io/publication/artemis/) |
+| Dataset | Direct 4DGS papers | Adoption | Scale | Reference | Data / Project |
+| --- | ---: | --- | --- | --- | --- |
+| DNA-Rendering | 5 | emerging | 500 identities × 3 outfits · 1,187 motions · 60 views | [DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering](https://arxiv.org/abs/2307.10173) | [Official page](https://dna-rendering.github.io/) |
+| Nerfies | 5 | emerging | 4 scenes · monocular captures · 2-phone validation rig | [Nerfies: Deformable Neural Radiance Fields](https://arxiv.org/abs/2011.12948) | [Official page](https://nerfies.github.io/) |
+| DAVIS | 4 | emerging | 50 sequences · 3,455 frames · 1080p · 24 FPS | [A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation](https://doi.org/10.1109/CVPR.2016.85) | [Official page](https://davischallenge.org/) |
+| DiVa-360 | 1 | observed | 54 sequences · 17.4M frames · 53 cameras | [DiVa-360: The Dynamic Visual Dataset for Immersive Neural Fields](https://arxiv.org/abs/2307.16897) | [Official page](https://ivl.cs.brown.edu/research/diva.html) |
+| Dynamic Furry Animal | 1 | observed | 9 animals · 36 cameras · 1920×1080 | [Artemis: Articulated Neural Pets with Appearance and Motion Synthesis](https://arxiv.org/abs/2202.05628) | [Official page](https://haiminluo.github.io/publication/artemis/) |
 
 ### Additional dataset releases
 
 Dataset-focused catalog entries not already represented by the recurring-benchmark table.
 
-| Dataset | Paper (arXiv) | Scope | Data / Project |
-| --- | --- | --- | --- |
-| PackUV-2B | [PackUV: Packed Gaussian UV Maps for 4D Volumetric Video](https://arxiv.org/abs/2602.23040) | Long-duration multi-view volumetric video | [Official page](https://ivl.cs.brown.edu/packuv/) |
-| 4DNeX-10M | [4DNeX: Feed-Forward 4D Generative Modeling Made Easy](https://arxiv.org/abs/2508.13154) | Large-scale animated-asset corpus | [Official page](https://huggingface.co/datasets/3DTopia/4DNeX-10M) |
-| PhysGaia | [PhysGaia: A Physics-Aware Benchmark with Multi-Body Interactions for Dynamic Novel View Synthesis](https://arxiv.org/abs/2506.02794) | Physics-aware multi-body dynamic scenes | [Official page](https://huggingface.co/datasets/mijeongkim/PhysGaia/tree/main) |
+| Dataset | Paper (arXiv) | Scope | Scale | Data / Project |
+| --- | --- | --- | --- | --- |
+| PackUV-2B | [PackUV: Packed Gaussian UV Maps for 4D Volumetric Video](https://arxiv.org/abs/2602.23040) | Long-duration multi-view volumetric video | 100 sequences · >2B frames · >50 cameras | [Official page](https://ivl.cs.brown.edu/packuv/) |
+| 4DNeX-10M | [4DNeX: Feed-Forward 4D Generative Modeling Made Easy](https://arxiv.org/abs/2508.13154) | Large-scale animated-asset corpus | >10M pseudo-4D annotated frames | [Official page](https://huggingface.co/datasets/3DTopia/4DNeX-10M) |
+| PhysGaia | [PhysGaia: A Physics-Aware Benchmark with Multi-Body Interactions for Dynamic Novel View Synthesis](https://arxiv.org/abs/2506.02794) | Physics-aware multi-body dynamic scenes | 17 scenes · 240 frames each · 4–6 views · 720×960 | [Official page](https://huggingface.co/datasets/mijeongkim/PhysGaia/tree/main) |
 
 ## License
 
