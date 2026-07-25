@@ -4,8 +4,7 @@
 
 # Awesome 4D Gaussian Splatting
 
-A concise, evidence-checked index of papers, project pages, code, and datasets for dynamic
-Gaussian splatting.
+A curated list of papers, project pages, code, and datasets for dynamic Gaussian splatting.
 
 </div>
 
@@ -21,21 +20,12 @@ Gaussian splatting.
 <!-- catalog-snapshot:end -->
 
 <!-- catalog-scope-summary:start -->
-This list uses **4DGS** broadly: native 4D Gaussian primitives, deformable or time-conditioned 3D
-Gaussians, explicit Gaussian trajectories or sequences, and closely related dynamic Gaussian
-representations. Of 351 listed arXiv papers, 329 are direct dynamic-Gaussian works, 2 are
-supporting resources, and 20 are clearly labeled adjacent or historical references.
+Here, **4DGS** covers native 4D Gaussians, deformable 3D Gaussians, explicit trajectories, and
+related Gaussian representations for dynamic scenes.
 <!-- catalog-scope-summary:end -->
 
-Each category starts with a compact paper list: the title links to arXiv, followed by optional
-`[page]` and `[code]` links. Expand **Detailed contributions** for reviewed contribution summaries,
-tags, and repository-status icons. Focused sections intentionally repeat papers when that makes a
-section useful on its own.
-
-The leading category follows the paper's central task and evaluation setting. Capture conditions,
-representation choices, application domains, and secondary capabilities remain tags or focused
-cross-listings; for example, low-overlap human capture leads under sparse reconstruction, not
-avatars or general reconstruction.
+Paper titles link to arXiv. `[page]` and `[code]` appear when available. Open
+**Detailed contributions** for short summaries, tags, and code status.
 
 ## Contents
 
