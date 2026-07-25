@@ -25,10 +25,9 @@ Gaussians, explicit Gaussian trajectories or sequences, and closely related dyna
 representations. Of 347 listed arXiv papers, 325 are direct dynamic-Gaussian works, two are
 supporting resources, and 20 are clearly labeled adjacent or historical references.
 
-Every row keeps two or three reviewed contributions as a compact numbered list. Paper titles link
-to arXiv, followed by available resources: a blue globe icon opens the project page, a green GitHub
-icon marks a tree-inspected implementation, and a gray GitHub icon marks a placeholder or
-documentation-only repository. Focused sections intentionally repeat papers when that makes a
+Each category starts with a compact paper list: the title links to arXiv, followed by optional
+`[page]` and `[code]` links. Expand **Detailed contributions** for reviewed contribution summaries,
+tags, and repository-status icons. Focused sections intentionally repeat papers when that makes a
 section useful on its own.
 
 ## Contents
@@ -64,6 +63,136 @@ predicts a representation without per-scene optimization. These tags overlap and
 choices rather than mutually exclusive paper families.
 
 ## Dynamic scene reconstruction
+
+<!-- paper-category:start -->
+- [Implicit 4D Gaussian Splatting for Fast Motion with Large Inter-Frame Displacements](https://arxiv.org/abs/2607.12362) (2026) [page](https://seung-gyeom.github.io/SPIN-4DGS/) [code](https://github.com/seung-gyeom/SPIN-4DGS)
+- [Grassmannian Splatting I: Moving rank-2 Spacetime Surfels for Dynamic Scene Rendering](https://arxiv.org/abs/2607.10489) (2026) [code](https://github.com/PaulCelanCoding/grassmannian-splatting)
+- [4D Human-Scene Reconstruction from Low-Overlap Captures](https://arxiv.org/abs/2607.09125) (2026) [page](https://sisyphm.github.io/studiorecon-page/)
+- [On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting](https://arxiv.org/abs/2607.08250) (2026) [code](https://github.com/cvsp-lab/MoDE)
+- [MVFusion-GS: Motion-Variance Guided Temporal Attention for High-Quality Dynamic Gaussian Splatting](https://arxiv.org/abs/2607.01578) (2026)
+- [Learning Efficient 4D Gaussian Representations from Monocular Videos with Flow Splatting](https://arxiv.org/abs/2606.29976) (2026)
+- [CoGS: Compositional Dynamic Human-Object Scenes Gaussian Splatting from Monocular Video](https://arxiv.org/abs/2606.28820) (2026)
+- [Temporally Aware Densification for Dynamic 3D Gaussian Splatting](https://arxiv.org/abs/2606.23212) (2026) [page](https://vikramsandu.github.io/publications/TADGS/index.html)
+- [Multi4D: High-Fidelity Dynamic Gaussian Splatting via Multi-Level Competitive Allocation](https://arxiv.org/abs/2606.22197) (2026) [page](https://batfacewayne.github.io/Multi4D.io/)
+- [PersistGS: Differentiable Physics for Object Permanence in 4D Gaussian Splatting](https://arxiv.org/abs/2606.03479) (2026)
+- [RiGS: Rigid-aware 4D Gaussian Splatting from a Single Monocular Video](https://arxiv.org/abs/2605.23672) (2026) [page](https://ladvu.github.io/RiGS/) [code](https://github.com/ladvu/RiGS)
+- [A Single Atlas is All You Need: Decoder-Side Gaussian Splatting for Immersive Video](https://arxiv.org/abs/2605.17002) (2026)
+- [CausalGS: Learning Physical Causality of 3D Dynamic Scenes with Gaussian Representations](https://arxiv.org/abs/2605.10586) (2026) [code](https://github.com/DustSettled/CausalGS)
+- [FreeTimeGS++: Secrets of Dynamic Gaussian Splatting and Their Principles](https://arxiv.org/abs/2605.03337) (2026) [page](https://yklcs.com/ftgspp)
+- [Incoherent Deformation, Not Capacity: Diagnosing and Mitigating Overfitting in Dynamic Gaussian Splatting](https://arxiv.org/abs/2604.16747) (2026)
+- [ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction](https://arxiv.org/abs/2604.13746) (2026) [page](https://liangjie1999.github.io/ClipGStreamWeb/) [code](https://github.com/liangjie1999/ClipGStream)
+- [GEAR: GEometry-motion Alternating Refinement for Articulated Object Modeling with Gaussian Splatting](https://arxiv.org/abs/2604.07728) (2026) [code](https://github.com/VIPL-VSU/GEAR)
+- [PanopticQuery: Unified Query-Time Reasoning for 4D Scenes](https://arxiv.org/abs/2604.05638) (2026)
+- [GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes](https://arxiv.org/abs/2604.02915) (2026) [page](https://cv.snu.ac.kr/research/GP4DGS/)
+- [TRiGS: Temporal Rigid-Body Motion for Scalable 4D Gaussian Splatting](https://arxiv.org/abs/2604.00538) (2026) [page](https://wwwjjn.github.io/TRiGS-project_page/)
+- [MotionScale: Reconstructing Appearance, Geometry, and Motion of Dynamic Scenes with Scalable 4D Gaussian Splatting](https://arxiv.org/abs/2603.29296) (2026) [page](https://hrzhou2.github.io/motion-scale-web/) [code](https://github.com/hrzhou2/motion-scale)
+- [Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos](https://arxiv.org/abs/2603.25058) (2026) [code](https://github.com/hhhddddddd/se3bsplinegs)
+- [Relaxed Rigidity with Ray-based Grouping for Dynamic Gaussian Splatting](https://arxiv.org/abs/2603.24994) (2026) [code](https://github.com/naver-ai/R3G)
+- [Inst4DGS: Instance-Decomposed 4D Gaussian Splatting with Multi-Video Label Permutation Learning](https://arxiv.org/abs/2603.18402) (2026)
+- [RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting](https://arxiv.org/abs/2603.13783) (2026) [page](https://william-wang2.github.io/RetimeGS/)
+- [Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting](https://arxiv.org/abs/2603.11543) (2026) [code](https://github.com/htx0601/Mango-GS)
+- [Decoupling Motion and Geometry in 4D Gaussian Splatting](https://arxiv.org/abs/2603.00952) (2026)
+- [AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction](https://arxiv.org/abs/2602.22376) (2026) [page](https://gdaosu.github.io/aerialdgs/)
+- [Constrained Dynamic Gaussian Splatting](https://arxiv.org/abs/2602.03538) (2026)
+- [SharpTimeGS: Sharp and Stable Dynamic Gaussian Splatting via Lifespan Modulation](https://arxiv.org/abs/2602.02989) (2026) [page](https://liaozhanfeng.github.io/SharpTimeGS/)
+- [Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields](https://arxiv.org/abs/2602.00148) (2026)
+- [Graphical X Splatting (GraphiXS): A Graphical Model for 4D Gaussian Splatting under Uncertainty](https://arxiv.org/abs/2601.19843) (2026)
+- [GS-DMSR: Dynamic Sensitive Multi-scale Manifold Enhancement for Accelerated High-Quality 3D Gaussian Splatting](https://arxiv.org/abs/2601.05584) (2026)
+- [DriveExplorer: Images-Only Decoupled 4D Reconstruction with Progressive Restoration for Driving View Extrapolation](https://arxiv.org/abs/2512.23983) (2025)
+- [4D Gaussian Splatting as a Learned Dynamical System](https://arxiv.org/abs/2512.19648) (2025) [page](https://arnold-caleb.github.io/evogs)
+- [Prior-Enhanced Gaussian Splatting for Dynamic Scene Reconstruction from Casual Video](https://arxiv.org/abs/2512.11356) (2025) [page](https://priorenhancedgaussian.github.io/)
+- [Neural Hamiltonian Deformation Fields for Dynamic Scene Rendering](https://arxiv.org/abs/2512.10424) (2025)
+- [MoRel: Long-Range Flicker-Free 4D Motion Modeling via Anchor Relay-based Bidirectional Blending with Hierarchical Densification](https://arxiv.org/abs/2512.09270) (2025) [page](https://cmlab-korea.github.io/MoRel/) [code](https://github.com/CMLab-Korea/CVPR26-MoRel)
+- [Splannequin: Freezing Monocular Mannequin-Challenge Footage with Dual-Detection Splatting](https://arxiv.org/abs/2512.05113) (2025) [page](https://chien90190.github.io/splannequin/)
+- [SyncTrack4D: Cross-Video Motion Alignment and Video Synchronization for Multi-Video 4D Gaussian Splatting](https://arxiv.org/abs/2512.04315) (2025)
+- [Detail Enhanced Gaussian Splatting for Large-Scale Volumetric Capture](https://arxiv.org/abs/2511.21697) (2025)
+- [Endo-G T: Geometry-Guided & Temporally Aware Time-Embedded 4DGS For Endoscopic Scenes](https://arxiv.org/abs/2511.21367) (2025)
+- [Neural Texture Splatting: Expressive 3D Gaussian Splatting for View Synthesis, Geometry, and Dynamic Reconstruction](https://arxiv.org/abs/2511.18873) (2025) [page](https://19reborn.github.io/nts/)
+- [Clustered Error Correction with Grouped 4D Gaussian Splatting](https://arxiv.org/abs/2511.16112) (2025) [code](https://github.com/tho-kn/cem-4dgs)
+- [Dynamic Gaussian Scene Reconstruction from Unsynchronized Videos](https://arxiv.org/abs/2511.11175) (2025)
+- [DIAL-GS: Dynamic Instance Aware Reconstruction for Label-free Street Scenes with 4D Gaussian Splatting](https://arxiv.org/abs/2511.06632) (2025)
+- [Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](https://arxiv.org/abs/2511.06299) (2025)
+- [Splatography: Sparse multi-view dynamic Gaussian Splatting for filmmaking challenges](https://arxiv.org/abs/2511.05152) (2025) [page](https://azzarelli.github.io/splatographypage/index.html)
+- [SAGS: Self-Adaptive Alias-Free Gaussian Splatting for Dynamic Surgical Endoscopic Reconstruction](https://arxiv.org/abs/2510.27318) (2025)
+- [EndoWave: Rational-Wavelet 4D Gaussian Splatting for Endoscopic Reconstruction](https://arxiv.org/abs/2510.23087) (2025)
+- [Mono4DGS-HDR: High Dynamic Range 4D Gaussian Splatting from Alternating-exposure Monocular Videos](https://arxiv.org/abs/2510.18489) (2025) [page](https://liujf1226.github.io/Mono4DGS-HDR)
+- [Uncertainty Matters in Dynamic Gaussian Splatting for Monocular 4D Reconstruction](https://arxiv.org/abs/2510.12768) (2025) [page](https://tamu-visual-ai.github.io/usplat4d/)
+- [Dynamic Gaussian Splatting from Defocused and Motion-blurred Monocular Videos](https://arxiv.org/abs/2510.10691) (2025) [code](https://github.com/hhhddddddd/dydeblur)
+- [ProDyG: Progressive Dynamic Scene Reconstruction via Gaussian Splatting from Monocular Videos](https://arxiv.org/abs/2509.17864) (2025) [code](https://github.com/cs-vision/ProDyG)
+- [UPGS: Unified Pose-aware Gaussian Splatting for Dynamic Scene Deblurring](https://arxiv.org/abs/2509.00831) (2025)
+- [MAPo : Motion-Aware Partitioning of Deformable 3D Gaussian Splatting for High-Fidelity Dynamic Scene Reconstruction](https://arxiv.org/abs/2508.19786) (2025)
+- [DriveSplat: Unified Neural Gaussian Reconstruction for Dynamic Driving Scenes](https://arxiv.org/abs/2508.15376) (2025) [page](https://physwm.github.io/drivesplat)
+- [E-4DGS: High-Fidelity Dynamic Reconstruction from the Multi-view Event Cameras](https://arxiv.org/abs/2508.09912) (2025) [code](https://github.com/SuperFCR/E-4DGS)
+- [Splat4D: Diffusion-Enhanced 4D Gaussian Splatting for Temporally and Spatially Consistent Content Creation](https://arxiv.org/abs/2508.07557) (2025)
+- [3D Gaussian Representations with Motion Trajectory Field for Dynamic Scene Reconstruction](https://arxiv.org/abs/2508.07182) (2025)
+- [Laplacian Analysis Meets Dynamics Modelling: Gaussian Splatting for 4D Reconstruction](https://arxiv.org/abs/2508.04966) (2025)
+- [PMGS: Reconstruction of Projectile Motion Across Large Spatiotemporal Spans via 3D Gaussian Splatting](https://arxiv.org/abs/2508.02660) (2025)
+- [VDEGaussian: Video Diffusion Enhanced 4D Gaussian Splatting for Dynamic Urban Scenes Modeling](https://arxiv.org/abs/2508.02129) (2025)
+- [LocalDyGS: Multi-view Global Dynamic Scene Modeling via Adaptive Local Implicit Feature Decoupling](https://arxiv.org/abs/2507.02363) (2025) [page](https://wujh2001.github.io/LocalDyGS/) [code](https://github.com/WuJH2001/LocalDyGS)
+- [DBMovi-GS: Dynamic View Synthesis from Blurry Monocular Video via Sparse-Controlled Gaussian Splatting](https://arxiv.org/abs/2506.20998) (2025)
+- [HoliGS: Holistic Gaussian Splatting for Embodied View Synthesis](https://arxiv.org/abs/2506.19291) (2025)
+- [DynaSplat: Dynamic-Static Gaussian Splatting with Hierarchical Motion Decomposition for Scene Reconstruction](https://arxiv.org/abs/2506.09836) (2025)
+- [HAIF-GS: Hierarchical and Induced Flow-Guided Gaussian Splatting for Dynamic Scene](https://arxiv.org/abs/2506.09518) (2025)
+- [ODE-GS: Latent ODEs for Dynamic Scene Extrapolation with 3D Gaussian Splatting](https://arxiv.org/abs/2506.05480) (2025) [code](https://github.com/preacherwhite/ODE-GS)
+- [FreeTimeGS: Free Gaussian Primitives at Anytime and Anywhere for Dynamic Scene Reconstruction](https://arxiv.org/abs/2506.05348) (2025) [page](https://zju3dv.github.io/freetimegs/)
+- [UAV4D: Dynamic Neural Rendering of Human-Centric UAV Imagery using Gaussian Splatting](https://arxiv.org/abs/2506.05011) (2025)
+- [CTRL-GS: Cascaded Temporal Residue Learning for 4D Gaussian Splatting](https://arxiv.org/abs/2505.18306) (2025)
+- [Compensating Spatiotemporally Inconsistent Observations for Online Dynamic 3D Gaussian Splatting](https://arxiv.org/abs/2505.01235) (2025) [page](https://bbangsik13.github.io/OR2)
+- [STP4D: Spatio-Temporal-Prompt Consistent Modeling for Text-to-4D Gaussian Splatting](https://arxiv.org/abs/2504.18318) (2025)
+- [MoBGS: Motion Deblurring Dynamic 3D Gaussian Splatting for Blurry Monocular Video](https://arxiv.org/abs/2504.15122) (2025) [code](https://github.com/KAIST-VICLab/MoBGS)
+- [HiMoR: Monocular Deformable Gaussian Reconstruction with Hierarchical Motion Representation](https://arxiv.org/abs/2504.06210) (2025) [code](https://github.com/pfnet-research/himor)
+- [Optimizing 4D Gaussians for Dynamic Scene Video from Single Landscape Images](https://arxiv.org/abs/2504.05458) (2025) [page](https://cvsp-lab.github.io/ICLR2025_3D-MOM/)
+- [BARD-GS: Blur-Aware Reconstruction of Dynamic Scenes via Gaussian Splatting](https://arxiv.org/abs/2503.15835) (2025) [page](https://vulab-ai.github.io/BARD-GS/)
+- [DeGauss: Dynamic-Static Decomposition with Gaussian Splatting for Distractor-free 3D Reconstruction](https://arxiv.org/abs/2503.13176) (2025) [page](https://batfacewayne.github.io/DeGauss.io/)
+- [GASPACHO: Gaussian Splatting for Controllable Humans and Objects](https://arxiv.org/abs/2503.09342) (2025) [page](https://miraymen.github.io/gaspacho/)
+- [SDD-4DGS: Static-Dynamic Aware Decoupling in Gaussian Splatting for 4D Scene Reconstruction](https://arxiv.org/abs/2503.09332) (2025)
+- [Motion Blender Gaussian Splatting for Dynamic Scene Reconstruction](https://arxiv.org/abs/2503.09040) (2025) [page](https://mlzxy.github.io/motion-blender-gs/) [code](https://github.com/mlzxy/motion-blender-gs)
+- [7DGS: Unified Spatial-Temporal-Angular Gaussian Splatting](https://arxiv.org/abs/2503.07946) (2025) [page](https://gaozhongpai.github.io/7dgs/)
+- [CoDa-4DGS: Dynamic Gaussian Splatting with Context and Deformation Awareness for Autonomous Driving](https://arxiv.org/abs/2503.06744) (2025) [page](https://rruisong.github.io/publications/CoDa-4DGS/) [code](https://github.com/Chenwei-Liang/CoDa-4DGS)
+- [Feature-EndoGaussian: Feature Distilled Gaussian Splatting in Surgical Deformable Scene Reconstruction](https://arxiv.org/abs/2503.06161) (2025)
+- [NTR-Gaussian: Nighttime Dynamic Thermal Reconstruction with 4D Gaussian Splatting Based on Thermodynamics](https://arxiv.org/abs/2503.03115) (2025) [code](https://github.com/ykykykykyk/NTR-Gaussian)
+- [BEAM: Bridging Physically-based Rendering and Gaussian Modeling for Relightable Volumetric Video](https://arxiv.org/abs/2502.08297) (2025)
+- [SplineGS: Robust Motion-Adaptive Spline for Real-Time Dynamic 3D Gaussians from Monocular Video](https://arxiv.org/abs/2412.09982) (2024) [page](https://kaist-viclab.github.io/splinegs-site/) [code](https://github.com/KAIST-VICLab/SplineGS)
+- [Deblur4DGS: 4D Gaussian Splatting from Blurry Monocular Video](https://arxiv.org/abs/2412.06424) (2024) [page](https://deblur4dgs.github.io/) [code](https://github.com/ZcsrenlongZ/Deblur4DGS)
+- [4D Gaussian Splatting with Scale-aware Residual Field and Adaptive Optimization for Real-time Rendering of Temporally Complex Dynamic Scenes](https://arxiv.org/abs/2412.06299) (2024) [page](https://yjb6.github.io/SaRO-GS.github.io/) [code](https://github.com/yjb6/SaRO-GS)
+- [DGNS: Deformable Gaussian Splatting and Dynamic Neural Surface for Monocular Dynamic 3D Reconstruction](https://arxiv.org/abs/2412.03910) (2024) [page](https://benzlxs.github.io/dgns_project)
+- [RoDyGS: Robust Dynamic Gaussian Splatting for Casual Videos](https://arxiv.org/abs/2412.03077) (2024) [page](https://rodygs.github.io/) [code](https://github.com/POSTECH-CVLab/RoDyGS)
+- [Gaussians on their Way: Wasserstein-Constrained 4D Gaussian Splatting with State-Space Modeling](https://arxiv.org/abs/2412.00333) (2024)
+- [EMD: Explicit Motion Modeling for High-Quality Street Gaussian Splatting](https://arxiv.org/abs/2411.15582) (2024) [page](https://qingpowuwu.github.io/emd)
+- [SplatFlow: Self-Supervised Dynamic Gaussian Splatting in Neural Motion Flow Field for Autonomous Driving](https://arxiv.org/abs/2411.15482) (2024)
+- [4D Gaussian Splatting in the Wild with Uncertainty-Aware Regularization](https://arxiv.org/abs/2411.08879) (2024)
+- [Grid4D: 4D Decomposed Hash Encoding for High-Fidelity Dynamic Gaussian Splatting](https://arxiv.org/abs/2410.20815) (2024) [page](https://jiaweixu8.github.io/Grid4D-web/) [code](https://github.com/JiaweiXu8/Grid4D)
+- [DN-4DGS: Denoised Deformable Network with Temporal-Spatial Aggregation for Dynamic Scene Rendering](https://arxiv.org/abs/2410.13607) (2024) [code](https://github.com/peoplelu/DN-4DGS)
+- [MotionGS: Exploring Explicit Motion Guidance for Deformable 3D Gaussian Splatting](https://arxiv.org/abs/2410.07707) (2024) [page](https://ruijiezhu94.github.io/MotionGS_page/) [code](https://github.com/RuijieZhu94/MotionGS)
+- [SplatFields: Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](https://arxiv.org/abs/2409.11211) (2024) [page](https://markomih.github.io/SplatFields/)
+- [Registering Neural 4D Gaussians for Endoscopic Surgery](https://arxiv.org/abs/2407.20213) (2024)
+- [Shape of Motion: 4D Reconstruction from a Single Video](https://arxiv.org/abs/2407.13764) (2024) [page](https://shape-of-motion.github.io/) [code](https://github.com/vye16/shape-of-motion)
+- [MaGS: Reconstructing and Simulating Dynamic 3D Objects with Mesh-adsorbed Gaussian Splatting](https://arxiv.org/abs/2406.01593) (2024) [page](https://wcwac.github.io/MaGS-page/)
+- [Self-Calibrating 4D Novel View Synthesis from Monocular Videos Using Gaussian Splatting](https://arxiv.org/abs/2406.01042) (2024)
+- [Topo4D: Topology-Preserving Gaussian Splatting for High-Fidelity 4D Head Capture](https://arxiv.org/abs/2406.00440) (2024) [page](https://xuanchenli.github.io/Topo4D/)
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos with Depth Priors](https://arxiv.org/abs/2406.00434) (2024) [page](https://modgs.github.io/) [code](https://github.com/MobiusLqm/MoDGS)
+- [A Refined 3D Gaussian Representation for High-Quality Dynamic Scene Reconstruction](https://arxiv.org/abs/2405.17891) (2024)
+- [HFGS: 4D Gaussian Splatting with Emphasis on Spatial and Temporal High-Frequency Components for Endoscopic Scene Reconstruction](https://arxiv.org/abs/2405.17872) (2024) [code](https://github.com/zhaohaoyu376/HFGS)
+- [MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds](https://arxiv.org/abs/2405.17421) (2024) [page](https://jiahuilei.com/projects/mosca/) [code](https://github.com/JiahuiLei/MoSca)
+- [3D Geometry-aware Deformable Gaussian Splatting for Dynamic View Synthesis](https://arxiv.org/abs/2404.06270) (2024) [page](https://npucvr.github.io/GaGS/) [code](https://github.com/zhichengLuxx/GaGS)
+- [Per-Gaussian Embedding-Based Deformation for Deformable 3D Gaussian Splatting](https://arxiv.org/abs/2404.03613) (2024) [page](https://jeongminb.github.io/e-d3dgs/) [code](https://github.com/JeongminB/E-D3DGS)
+- [Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction](https://arxiv.org/abs/2403.11447) (2024) [code](https://github.com/jasongzy/MAGS)
+- [ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation](https://arxiv.org/abs/2403.08321) (2024) [page](https://guanxinglu.github.io/ManiGaussian/)
+- [4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes](https://arxiv.org/abs/2402.03307) (2024) [page](https://weify627.github.io/4drotorgs/) [code](https://github.com/weify627/4D-Rotor-Gaussians)
+- [VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality](https://arxiv.org/abs/2401.16663) (2024) [page](https://yingjiang96.github.io/VR-GS/)
+- [EndoGS: Deformable Endoscopic Tissues Reconstruction with Gaussian Splatting](https://arxiv.org/abs/2401.11535) (2024) [code](https://github.com/HKU-MedAI/EndoGS)
+- [Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting](https://arxiv.org/abs/2401.01339) (2024) [page](https://zju3dv.github.io/street_gaussians/) [code](https://github.com/zju3dv/street_gaussians)
+- [Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis](https://arxiv.org/abs/2312.16812) (2023) [page](https://oppo-us-research.github.io/SpacetimeGaussians-website/) [code](https://github.com/oppo-us-research/SpacetimeGaussians)
+- [SWinGS: Sliding Windows for Dynamic 3D Gaussian Splatting](https://arxiv.org/abs/2312.13308) (2023)
+- [DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes](https://arxiv.org/abs/2312.07920) (2023) [page](https://pkuvdig.github.io/DrivingGaussian/) [code](https://github.com/VDIGPKU/DrivingGaussian)
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](https://arxiv.org/abs/2312.03431) (2023) [page](https://nju-3dv.github.io/projects/Gaussian-Flow) [code](https://github.com/NJU-3DV/Gaussian-Flow)
+- [Dynamic Gaussian Splatting from Markerless Motion Capture can Reconstruct Infants Movements](https://arxiv.org/abs/2310.19441) (2023)
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](https://arxiv.org/abs/2310.10642) (2023) [page](https://fudan-zvg.github.io/4d-gaussian-splatting/) [code](https://github.com/fudan-zvg/4d-gaussian-splatting)
+- [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](https://arxiv.org/abs/2310.08528) (2023) [page](https://guanjunwu.github.io/4dgs/) [code](https://github.com/hustvl/4DGaussians)
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](https://arxiv.org/abs/2309.13101) (2023) [page](https://ingra14m.github.io/Deformable-Gaussians/) [code](https://github.com/ingra14m/Deformable-3D-Gaussians)
+
+<details>
+<summary>Detailed contributions (125 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -193,7 +322,28 @@ choices rather than mutually exclusive paper families.
 | [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](https://arxiv.org/abs/2310.08528) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://guanjunwu.github.io/4dgs/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/hustvl/4DGaussians "Functional GitHub repository")<br><sub>reconstruction &middot; per-scene &middot; native-4dgs &middot; explicit &middot; real-time</sub> | <ol><li>Introduces a holistic dynamic-scene representation combining 3D Gaussians with 4D neural voxels.</li><li>Uses decomposed neural voxel encoding to construct Gaussian features from 4D neural voxels.</li><li>Uses a lightweight MLP to predict Gaussian deformations at timestamps.</li></ol> |
 | [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](https://arxiv.org/abs/2309.13101) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://ingra14m.github.io/Deformable-Gaussians/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/ingra14m/Deformable-3D-Gaussians "Functional GitHub repository")<br><sub>reconstruction &middot; monocular &middot; per-scene &middot; deformable-3dgs &middot; real-time</sub> | <ol><li>Learns 3D Gaussians in canonical space with a deformation field for monocular dynamic-scene reconstruction.</li><li>Introduces annealing smoothing during training to reduce the effect of inaccurate poses on time interpolation.</li><li>Uses a differential Gaussian rasterizer for high-quality, real-time dynamic rendering.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## Sparse reconstruction
+
+<!-- paper-category:start -->
+- [HiReFF: High-Resolution Feedforward Human Reconstruction from Uncalibrated Sparse-View Video](https://arxiv.org/abs/2606.29333) (2026) [page](https://iridescentjiang.github.io/HiReFF) [code](https://github.com/IridescentJiang/HiReFF)
+- [4C4D: 4 Camera 4D Gaussian Splatting](https://arxiv.org/abs/2604.04063) (2026) [page](https://junshengzhou.github.io/4C4D/) [code](https://github.com/yangzf-1023/4C4D)
+- [UFO-4D: Unposed Feedforward 4D Reconstruction from Two Images](https://arxiv.org/abs/2602.24290) (2026) [page](https://ufo-4d.github.io/) [code](https://github.com/ufo-4d/ufo-4d)
+- [LoD-Structured 3D Gaussian Splatting for Streaming Video Reconstruction](https://arxiv.org/abs/2601.18475) (2026)
+- [SV-GS: Sparse View 4D Reconstruction with Skeleton-Driven Gaussian Splatting](https://arxiv.org/abs/2601.00285) (2026)
+- [DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images](https://arxiv.org/abs/2512.03004) (2025) [page](https://xiaomi-research.github.io/dggt/) [code](https://github.com/xiaomi-research/dggt)
+- [Cross-Temporal 3D Gaussian Splatting for Sparse-View Guided Scene Update](https://arxiv.org/abs/2512.00534) (2025)
+- [Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis](https://arxiv.org/abs/2511.23044) (2025) [page](https://liyw420.github.io/) [code](https://github.com/liyw420/GC-4DGS)
+- [Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](https://arxiv.org/abs/2511.07122) (2025) [page](https://changyueshi.github.io/Sparse4DGS/)
+- [Rigidity-Aware 3D Gaussian Deformation from a Single Image](https://arxiv.org/abs/2509.22222) (2025) [page](https://vision3d-lab.github.io/deformsplat/) [code](https://github.com/vision3d-lab/deformsplat)
+- [Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/2412.03526) (2024) [page](https://research.nvidia.com/labs/toronto-ai/bullet-timer/)
+- [Space-time 2D Gaussian Splatting for Accurate Surface Reconstruction under Complex Dynamic Scenes](https://arxiv.org/abs/2409.18852) (2024) [page](https://tb2-sy.github.io/st-2dgs/)
+- [TOGS: Gaussian Splatting with Temporal Opacity Offset for Real-Time 4D DSA Rendering](https://arxiv.org/abs/2403.19586) (2024) [code](https://github.com/hustvl/TOGS)
+
+<details>
+<summary>Detailed contributions (13 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -211,7 +361,42 @@ choices rather than mutually exclusive paper families.
 | [Space-time 2D Gaussian Splatting for Accurate Surface Reconstruction under Complex Dynamic Scenes](https://arxiv.org/abs/2409.18852) (2024)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://tb2-sy.github.io/st-2dgs/ "Project page")<br><sub>sparse-reconstruction &middot; monocular &middot; sparse-view &middot; deformable-3dgs &middot; human</sub> | <ol><li>Introduces a space-time 2D Gaussian Splatting approach.</li><li>Learns canonical 2D Gaussian splats and deforms these 2D Gaussian splats while enforcing the disks of the Gaussian located on the surface of the objects.</li></ol> |
 | [TOGS: Gaussian Splatting with Temporal Opacity Offset for Real-Time 4D DSA Rendering](https://arxiv.org/abs/2403.19586) (2024)<br><br>[![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/hustvl/TOGS "Functional GitHub repository")<br><sub>sparse-reconstruction &middot; sparse-view &middot; real-time</sub> | <ol><li>Introduces TOGS, a Gaussian splatting method with opacity offset over time, which can effectively improve the rendering quality and speed of 4D DSA.</li><li>Introduces an opacity offset table for each Gaussian to model the opacity offsets of the Gaussian, using these opacity-varying Gaussians to model the temporal variations in the radiance of the contrast agent.</li><li>By interpolating the opacity offset table, the opacity variation of the Gaussian at different time points can be determined.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## 4D generation and editing
+
+<!-- paper-category:start -->
+- [AniGS: Bridging Rendering and Diffusion Prior for 3D Scene Animation](https://arxiv.org/abs/2607.18539) (2026)
+- [CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis](https://arxiv.org/abs/2607.07601) (2026)
+- [Unified Panoramic-Gaussian Representation for Monocular 4D Scene Synthesis](https://arxiv.org/abs/2607.01663) (2026)
+- [World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video](https://arxiv.org/abs/2607.01202) (2026) [page](https://research.nvidia.com/labs/amri/projects/world-from-motion/)
+- [LUNA: Learning Universal 3D Human Animation Beyond Skinning](https://arxiv.org/abs/2606.31981) (2026) [page](https://penghtyx.github.io/LUNA/)
+- [MeGAS: Thermomechanical Dynamic Gaussian Splatting for Thermophysical Scene Editing](https://arxiv.org/abs/2606.23455) (2026)
+- [Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting](https://arxiv.org/abs/2606.17432) (2026)
+- [4D-GSW: Kinematic-Aware Spatio-Temporal Consistent Watermarking for 4D Gaussian Splatting](https://arxiv.org/abs/2605.22342) (2026)
+- [EndoGSim: Physics-Aware 4D Dynamic Endoscopic Scene Simulations via MLLM-Guided Gaussian Splatting](https://arxiv.org/abs/2605.16022) (2026)
+- [Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting](https://arxiv.org/abs/2604.12626) (2026) [page](https://zju3dv.github.io/habitat-gs/)
+- [AvatarPointillist: AutoRegressive 4D Gaussian Avatarization](https://arxiv.org/abs/2604.04787) (2026) [page](https://kumapowerliu.github.io/AvatarPointillist/)
+- [Dynamic-eDiTor: Training-Free Text-Driven 4D Scene Editing with Multimodal Diffusion Transformer](https://arxiv.org/abs/2512.00677) (2025) [page](https://di-lee.github.io/dynamic-eDiTor/)
+- [4DGS-Craft: Consistent and Interactive 4D Gaussian Splatting Editing](https://arxiv.org/abs/2510.01991) (2025)
+- [WorldSplat: Gaussian-Centric Feed-Forward 4D Scene Generation for Autonomous Driving](https://arxiv.org/abs/2509.23402) (2025) [page](https://wm-research.github.io/worldsplat/) [code](https://github.com/xiaomi-research/worldsplat)
+- [Every Camera Effect, Every Time, All at Once: 4D Gaussian Ray Tracing for Physics-based Camera Effect Data Generation](https://arxiv.org/abs/2509.10759) (2025) [page](https://shigon255.github.io/4DGRT-project-page/)
+- [BulletGen: Improving 4D Reconstruction with Bullet-Time Generation](https://arxiv.org/abs/2506.18601) (2025)
+- [Generative 4D Scene Gaussian Splatting with Object View-Synthesis Priors](https://arxiv.org/abs/2506.12716) (2025) [page](https://genmojo.github.io/)
+- [WeatherEdit: Controllable Weather Editing with 4D Gaussian Field](https://arxiv.org/abs/2505.20471) (2025) [page](https://jumponthemoon.github.io/w-edit)
+- [HoloTime: Taming Video Diffusion Models for Panoramic 4D Scene Generation](https://arxiv.org/abs/2504.21650) (2025) [page](https://zhouhyocean.github.io/holotime/)
+- [3D Dynamic Fluid Assets from Single-View Videos with Generative Gaussian Splatting](https://arxiv.org/abs/2503.00868) (2025)
+- [Instruct-4DGS: Efficient Dynamic Scene Editing via 4D Gaussian-based Static-Dynamic Separation](https://arxiv.org/abs/2502.02091) (2025) [page](https://hanbyelcho.info/instruct-4dgs/) [code](https://github.com/juhyeon-kwon/Instruct-4DGS)
+- [DreamMesh4D: Video-to-4D Generation with Sparse-Controlled Gaussian-Mesh Hybrid Representation](https://arxiv.org/abs/2410.06756) (2024) [page](https://lizhiqi49.github.io/DreamMesh4D)
+- [GSTalker: Real-time Audio-Driven Talking Face Generation via Deformable Gaussian Splatting](https://arxiv.org/abs/2404.19040) (2024)
+- [STAG4D: Spatial-Temporal Anchored Generative 4D Gaussians](https://arxiv.org/abs/2403.14939) (2024) [page](https://nju-3dv.github.io/projects/STAG4D/) [code](https://github.com/zeng-yifei/STAG4D)
+- [GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation](https://arxiv.org/abs/2403.12365) (2024) [page](https://zerg-overmind.github.io/GaussianFlow.github.io/)
+- [DreamGaussian4D: Generative 4D Gaussian Splatting](https://arxiv.org/abs/2312.17142) (2023) [page](https://jiawei-ren.github.io/projects/dreamgaussian4d/) [code](https://github.com/jiawei-ren/dreamgaussian4d)
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](https://arxiv.org/abs/2312.14937) (2023) [page](https://yihua7.github.io/SC-GS-web/) [code](https://github.com/CVMI-Lab/SC-GS)
+
+<details>
+<summary>Detailed contributions (27 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -243,7 +428,78 @@ choices rather than mutually exclusive paper families.
 | [DreamGaussian4D: Generative 4D Gaussian Splatting](https://arxiv.org/abs/2312.17142) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://jiawei-ren.github.io/projects/dreamgaussian4d/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/jiawei-ren/dreamgaussian4d "Functional GitHub repository")<br><sub>generation &middot; monocular &middot; per-scene &middot; deformable-3dgs &middot; fast-training</sub> | <ol><li>Builds image-to-4D content by generating a static Gaussian model with DreamGaussianHD and then optimizing HexPlane-driven Gaussian deformation.</li><li>Refines UV-space texture maps with a pretrained image-to-video diffusion model to improve detail and temporal consistency.</li><li>Reduces per-asset optimization to minutes, supports visual motion control, and exports animated meshes for conventional 3D engines.</li></ol> |
 | [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](https://arxiv.org/abs/2312.14937) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://yihua7.github.io/SC-GS-web/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/CVMI-Lab/SC-GS "Functional GitHub repository")<br><sub>generation &middot; per-scene &middot; deformable-3dgs &middot; editing &middot; explicit</sub> | <ol><li>Decomposes dynamic-scene motion and appearance into sparse control points and dense Gaussians.</li><li>Learns compact 6-DoF transformation bases that are interpolated locally to produce Gaussian motion fields.</li><li>Adapts control-point locations and counts and applies an ARAP loss for spatial continuity and local rigidity.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## Efficiency, compression, and rendering
+
+<!-- paper-category:start -->
+- [GrainGS: Gradient-Decoupled Gaussian Splatting for Efficient Dynamic Novel View Synthesis](https://arxiv.org/abs/2607.21448) (2026) [code](https://github.com/I2-Multimedia-Lab/GrainGS)
+- [LentiAvatar: Pseudo-Multiview Reconstruction and Subpixel Prism Rendering for Real-Time Stereoscopic Communication](https://arxiv.org/abs/2606.10550) (2026)
+- [DSD-GS: Dynamic-Static Decomposition of Gaussian Splatting for Efficient and High-Fidelity Dynamic Scene Reconstruction](https://arxiv.org/abs/2605.30863) (2026)
+- [PD-4DGS:Progressive Decomposition of 4D Gaussian Splatting for Bandwidth-Adaptive Dynamic Scene Streaming](https://arxiv.org/abs/2605.11427) (2026)
+- [CAGS: Color-Adaptive Volumetric Video Streaming with Dynamic 3D Gaussian Splatting](https://arxiv.org/abs/2605.09279) (2026) [code](https://github.com/yindaheng98/ColorAdaptiveGaussianSplatting)
+- [Fast and Robust Deformable 3D Gaussian Splatting](https://arxiv.org/abs/2603.20857) (2026)
+- [Does it matter which Gaussians you pick in 4D Gaussian streaming?](https://arxiv.org/abs/2603.17227) (2026)
+- [PackUV: Packed Gaussian UV Maps for 4D Volumetric Video](https://arxiv.org/abs/2602.23040) (2026) [page](https://ivl.cs.brown.edu/packuv/) [code](https://github.com/aashishrai3799/packuv)
+- [HPC: Hierarchical Point-based Latent Representation for Streaming Dynamic Gaussian Splatting Compression](https://arxiv.org/abs/2602.00671) (2026)
+- [AirGS: Real-Time 4D Gaussian Streaming for Free-Viewpoint Video Experiences](https://arxiv.org/abs/2512.20943) (2025)
+- [HGS: Hybrid Gaussian Splatting with Static-Dynamic Decomposition for Compact Dynamic View Synthesis](https://arxiv.org/abs/2512.14352) (2025)
+- [TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression](https://arxiv.org/abs/2512.05446) (2025)
+- [Alias-free 4D Gaussian Splatting](https://arxiv.org/abs/2511.18367) (2025) [page](https://4d-alias-free.github.io/4D-Alias-free/) [code](https://github.com/czl-gif/4daa)
+- [StreamSTGS: Streaming Spatial and Temporal Gaussian Grids for Real-Time Free-Viewpoint Video](https://arxiv.org/abs/2511.06046) (2025) [code](https://github.com/kkkzh/StreamSTGS)
+- [P-4DGS: Predictive 4D Gaussian Splatting with 90× Compression](https://arxiv.org/abs/2510.10030) (2025)
+- [DEGS: Deformable Event-based 3D Gaussian Splatting from RGB and Event Stream](https://arxiv.org/abs/2510.07752) (2025)
+- [Optimized Minimal 4D Gaussian Splatting](https://arxiv.org/abs/2510.03857) (2025) [page](https://minshirley.github.io/OMG4/)
+- [Instant4D: 4D Gaussian Splatting in Minutes](https://arxiv.org/abs/2510.01119) (2025) [page](https://instant4d.github.io/) [code](https://github.com/Zhanpeng1202/Instant4D)
+- [ReCon-GS: Continuum-Preserved Gaussian Streaming for Fast and Compact Reconstruction of Dynamic Scenes](https://arxiv.org/abs/2509.24325) (2025) [code](https://github.com/jyfu-vcl/ReCon-GS)
+- [4DGCPro: Efficient Hierarchical 4D Gaussian Compression for Progressive Volumetric Video Streaming](https://arxiv.org/abs/2509.17513) (2025) [page](https://mediax-sjtu.github.io/4DGCPro/) [code](https://github.com/MediaX-SJTU/4DGCPro)
+- [4D-MoDe: Towards Editable and Scalable Volumetric Streaming via Motion-Decoupled 4D Gaussian Compression](https://arxiv.org/abs/2509.17506) (2025) [code](https://github.com/MediaX-SJTU/4D-MoDe)
+- [Topology-Aware Optimization of Gaussian Primitives for Human-Centric Volumetric Videos](https://arxiv.org/abs/2509.07653) (2025) [code](https://github.com/HiFi-Human/TaoGS)
+- [DASH: 4D Hash Encoding with Self-Supervised Decomposition for Real-Time Dynamic Scene Rendering](https://arxiv.org/abs/2507.19141) (2025) [code](https://github.com/chenj02/DASH)
+- [3DGauCIM: Accelerating Static/Dynamic 3D Gaussian Splatting via Digital CIM for High Frame Rate Real-Time Edge Rendering](https://arxiv.org/abs/2507.19133) (2025)
+- [Temporal Smoothness-Aware Rate-Distortion Optimized 4D Gaussian Splatting](https://arxiv.org/abs/2507.17336) (2025) [code](https://github.com/HyeongminLEE/RD4DGS)
+- [Adaptive 3D Gaussian Splatting Video Streaming](https://arxiv.org/abs/2507.14432) (2025)
+- [SD-GS: Structured Deformable 3D Gaussians for Efficient Dynamic Scene Reconstruction](https://arxiv.org/abs/2507.07465) (2025)
+- [D-FCGS: Feedforward Compression of Dynamic Gaussian Splatting for Free-Viewpoint Videos](https://arxiv.org/abs/2507.05859) (2025) [code](https://github.com/Mr-Zwkid/D-FCGS)
+- [DIGS: Dynamic CBCT Reconstruction using Deformation-Informed 4D Gaussian Splatting and a Low-Rank Free-Form Deformation Model](https://arxiv.org/abs/2506.22280) (2025) [code](https://github.com/Yuliang-Huang/DIGS)
+- [SpeeDe3DGS: Speedy Deformable 3D Gaussian Splatting with Temporal Pruning and Motion Grouping](https://arxiv.org/abs/2506.07917) (2025) [page](https://speede3dgs.github.io/)
+- [Motion Matters: Compact Gaussian Streaming for Free-Viewpoint Video Reconstruction](https://arxiv.org/abs/2505.16533) (2025)
+- [MGStream: Motion-aware 3D Gaussian for Streamable Dynamic Scene Reconstruction](https://arxiv.org/abs/2505.13839) (2025)
+- [Hybrid 3D-4D Gaussian Splatting for Fast Dynamic Scene Representation](https://arxiv.org/abs/2505.13215) (2025) [page](https://ohsngjun.github.io/3D-4DGS/) [code](https://github.com/ohsngjun/3D-4DGS)
+- [ADC-GS: Anchor-Driven Deformable and Compressed Gaussian Splatting for Dynamic Scene Reconstruction](https://arxiv.org/abs/2505.08196) (2025) [code](https://github.com/H-Huang774/ADC-GS)
+- [GIFStream: 4D Gaussian-based Immersive Video with Feature Stream](https://arxiv.org/abs/2505.07539) (2025) [page](https://xdimlab.github.io/GIFStream/) [code](https://github.com/XDimLab/GIFStream)
+- [4DGS-CC: A Contextual Coding Framework for 4D Gaussian Splatting Data Compression](https://arxiv.org/abs/2504.18925) (2025)
+- [CompGS++: Compressed Gaussian Splatting for Static and Dynamic Scene Representation](https://arxiv.org/abs/2504.13022) (2025)
+- [Disentangled 4D Gaussian Splatting: Rendering High-Resolution Dynamic World at 343 FPS](https://arxiv.org/abs/2503.22159) (2025)
+- [4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video](https://arxiv.org/abs/2503.18421) (2025) [page](https://waveviewer.github.io/4dgc/) [code](https://github.com/zihanzheng-sjtu/4DGC)
+- [1000+ FPS 4D Gaussian Splatting for Dynamic Scene Rendering](https://arxiv.org/abs/2503.16422) (2025) [page](https://4dgs-1k.github.io/)
+- [Light4GS: Lightweight Compact 4D Gaussian Splatting Generation via Context Model](https://arxiv.org/abs/2503.13948) (2025) [code](https://github.com/Evan-sudo/Light4GS)
+- [Swift4D:Adaptive divide-and-conquer Gaussian Splatting for compact and efficient reconstruction of dynamic scene](https://arxiv.org/abs/2503.12307) (2025) [code](https://github.com/WuJH2001/swift4d)
+- [EvolvingGS: High-Fidelity Streamable Volumetric Video via Evolving 3D Gaussian Representation](https://arxiv.org/abs/2503.05162) (2025) [page](https://evolvinggs.github.io/)
+- [Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Time-Variant Attribute Modeling](https://arxiv.org/abs/2502.20378) (2025)
+- [Efficient 4D Gaussian Stream with Low Rank Adaptation](https://arxiv.org/abs/2502.16575) (2025)
+- [MoDec-GS: Global-to-Local Motion Decomposition and Temporal Interval Adjustment for Compact Dynamic 3D Gaussian Splatting](https://arxiv.org/abs/2501.03714) (2025) [page](https://kaist-viclab.github.io/MoDecGS-site/) [code](https://github.com/skwak-kaist/MoDec-GS)
+- [Representing Long Volumetric Video with Temporal Gaussian Hierarchy](https://arxiv.org/abs/2412.09608) (2024) [page](https://zju3dv.github.io/longvolcap/)
+- [Temporally Compressed 3D Gaussian Splatting for Dynamic Scenes](https://arxiv.org/abs/2412.05700) (2024) [page](https://ahmad-jarrar.github.io/tc-3dgs/)
+- [Template-free Articulated Gaussian Splatting for Real-time Reposable Dynamic View Synthesis](https://arxiv.org/abs/2412.05570) (2024) [page](https://dnvtmf.github.io/SK_GS/)
+- [QUEEN: QUantized Efficient ENcoding of Dynamic Gaussians for Streaming Free-viewpoint Videos](https://arxiv.org/abs/2412.04469) (2024) [page](https://research.nvidia.com/labs/amri/projects/queen/) [code](https://github.com/NVlabs/QUEEN)
+- [4D Scaffold Gaussian Splatting with Dynamic-Aware Anchor Growing for Efficient and High-Fidelity Dynamic Scene Reconstruction](https://arxiv.org/abs/2411.17044) (2024) [page](https://raikuma.github.io/4D-Scaffold-GS-Page/) [code](https://github.com/raikuma/4D-Scaffold-GS)
+- [Dynamics-Aware Gaussian Splatting Streaming Towards Fast On-the-Fly 4D Reconstruction](https://arxiv.org/abs/2411.14847) (2024) [page](https://www.liuzhening.top/DASS)
+- [HiCoM: Hierarchical Coherent Motion for Streamable Dynamic Scene with 3D Gaussian Splatting](https://arxiv.org/abs/2411.07541) (2024) [code](https://github.com/gqk/HiCoM)
+- [Fully Explicit Dynamic Gaussian Splatting](https://arxiv.org/abs/2410.15629) (2024) [page](https://leejunoh.com/Ex4DGS/) [code](https://github.com/juno181/Ex4DGS)
+- [MEGA: Memory-Efficient 4D Gaussian Splatting for Dynamic Scenes](https://arxiv.org/abs/2410.13613) (2024) [page](https://xinjie-q.github.io/MEGA) [code](https://github.com/Xinjie-Q/MEGA)
+- [V^3: Viewing Volumetric Videos on Mobiles via Streamable 2D Dynamic Gaussians](https://arxiv.org/abs/2409.13648) (2024) [page](https://authoritywang.github.io/v3/) [code](https://github.com/AuthorityWang/VideoGS)
+- [SwinGS: Sliding Window Gaussian Splatting for Volumetric Video Streaming with Arbitrary Length](https://arxiv.org/abs/2409.07759) (2024)
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](https://arxiv.org/abs/2408.03822) (2024) [page](https://maincold2.github.io/c3dgs/)
+- [Superpoint Gaussian Splatting for Real-Time High-Fidelity Dynamic Scene Reconstruction](https://arxiv.org/abs/2406.03697) (2024) [page](https://dnvtmf.github.io/SP_GS.github.io)
+- [3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos](https://arxiv.org/abs/2403.01444) (2024) [page](https://sjojok.top/3dgstream/) [code](https://github.com/SJoJoK/3DGStream)
+- [Mesh-based Gaussian Splatting for Real-time Large-scale Deformation](https://arxiv.org/abs/2402.04796) (2024)
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](https://arxiv.org/abs/2312.00112) (2023) [page](https://agelosk.github.io/dynmf/)
+- [A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis](https://arxiv.org/abs/2311.12897) (2023) [page](https://compactdynamic3dgaussian.github.io/) [code](https://github.com/raven38/EfficientDynamic3DGaussian)
+
+<details>
+<summary>Detailed contributions (63 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -311,10 +567,35 @@ choices rather than mutually exclusive paper families.
 | [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](https://arxiv.org/abs/2312.00112) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://agelosk.github.io/dynmf/ "Project page")<br><sub>efficiency &middot; per-scene &middot; deformable-3dgs &middot; fast-training &middot; real-time &middot; tracking</sub> | <ol><li>Factorizes Gaussian motion into a small set of global basis trajectories and per-Gaussian combination coefficients.</li><li>Uses sparsity to disentangle independently moving regions without requiring object-level supervision.</li><li>Provides efficient training and real-time rendering while exposing trajectories useful for point tracking.</li></ol> |
 | [A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis](https://arxiv.org/abs/2311.12897) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://compactdynamic3dgaussian.github.io/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/raven38/EfficientDynamic3DGaussian "Functional GitHub repository")<br><sub>efficiency &middot; monocular &middot; multi-view &middot; per-scene &middot; compression &middot; real-time</sub> | <ol><li>Models Gaussian positions and rotations as compact functions of time while keeping scale, color, and opacity invariant.</li><li>Reduces representation memory and relaxes the dense multi-view observation requirement of per-timestep dynamic Gaussians.</li><li>Supports monocular and multi-view reconstruction while reporting 118 FPS at 1,352 by 1,014 resolution on a single GPU.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## Feed-forward 4DGS
 
 Methods that reconstruct, generate, encode, or compress a dynamic Gaussian representation in a
 learned forward pass, rather than optimizing a new representation from scratch for every sequence.
+
+<!-- paper-category:start -->
+- [GUSH3R: Everyone Everywhere All at Once as Gaussians](https://arxiv.org/abs/2607.05243) (2026) [page](https://abkeito.github.io/gush3r-page/) [code](https://github.com/abkeito/GUSH3R)
+- [HiReFF: High-Resolution Feedforward Human Reconstruction from Uncalibrated Sparse-View Video](https://arxiv.org/abs/2606.29333) (2026) [page](https://iridescentjiang.github.io/HiReFF) [code](https://github.com/IridescentJiang/HiReFF)
+- [Hand-4DGS: Feed-Forward 3D Gaussian Splatting for 4D Hand Reconstruction from Egocentric Videos](https://arxiv.org/abs/2606.19156) (2026) [page](https://jeongminb.github.io/hand-4dgs/)
+- [Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving](https://arxiv.org/abs/2606.10656) (2026) [page](https://maggiesong7.github.io/research/Envision4D/) [code](https://github.com/maggiesong7/Envision4D)
+- [Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction](https://arxiv.org/abs/2605.31595) (2026) [page](https://cvlab-kaist.github.io/C4G/) [code](https://github.com/cvlab-kaist/C4G)
+- [No Pose, No Problem in 4D: Feed-Forward Dynamic Gaussians from Unposed Multi-View Videos](https://arxiv.org/abs/2605.22190) (2026) [page](https://bralani.github.io/nopo4d_html/) [code](https://github.com/bralani/NoPo4D)
+- [Ground4D: Spatially-Grounded Feedforward 4D Reconstruction for Unstructured Off-Road Scenes](https://arxiv.org/abs/2605.04435) (2026) [code](https://github.com/wsnbws/Ground4D)
+- [ReconDrive: Fast Feed-Forward 4D Gaussian Splatting for Autonomous Driving Scene Reconstruction](https://arxiv.org/abs/2603.07552) (2026) [code](https://github.com/TuojingAI/ReconDrive)
+- [UFO-4D: Unposed Feedforward 4D Reconstruction from Two Images](https://arxiv.org/abs/2602.24290) (2026) [page](https://ufo-4d.github.io/) [code](https://github.com/ufo-4d/ufo-4d)
+- [DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images](https://arxiv.org/abs/2512.03004) (2025) [page](https://xiaomi-research.github.io/dggt/) [code](https://github.com/xiaomi-research/dggt)
+- [WorldSplat: Gaussian-Centric Feed-Forward 4D Scene Generation for Autonomous Driving](https://arxiv.org/abs/2509.23402) (2025) [page](https://wm-research.github.io/worldsplat/) [code](https://github.com/xiaomi-research/worldsplat)
+- [D-FCGS: Feedforward Compression of Dynamic Gaussian Splatting for Free-Viewpoint Videos](https://arxiv.org/abs/2507.05859) (2025) [code](https://github.com/Mr-Zwkid/D-FCGS)
+- [4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](https://arxiv.org/abs/2506.08015) (2025) [page](https://4dgt.github.io/) [code](https://github.com/facebookresearch/4DGT)
+- [Instant Gaussian Stream: Fast and Generalizable Streaming of Dynamic Scene Reconstruction via Gaussian Splatting](https://arxiv.org/abs/2503.16979) (2025) [code](https://github.com/yjb6/IGS)
+- [DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving](https://arxiv.org/abs/2412.09043) (2024) [code](https://github.com/EnVision-Research/DriveRecon)
+- [Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/2412.03526) (2024) [page](https://research.nvidia.com/labs/toronto-ai/bullet-timer/)
+- [L4GM: Large 4D Gaussian Reconstruction Model](https://arxiv.org/abs/2406.10324) (2024) [page](https://research.nvidia.com/labs/toronto-ai/l4gm/) [code](https://github.com/nv-tlabs/L4GM-official)
+
+<details>
+<summary>Detailed contributions (17 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -336,11 +617,60 @@ learned forward pass, rather than optimizing a new representation from scratch f
 | [Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/2412.03526) (2024)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://research.nvidia.com/labs/toronto-ai/bullet-timer/ "Project page")<br><sub>sparse-reconstruction &middot; feed-forward &middot; monocular &middot; native-4dgs &middot; real-time &middot; sparse-view</sub> | <ol><li>Introduces a motion-aware feed-forward model for bullet-time reconstruction and novel-view synthesis from casual monocular video.</li><li>Aggregates all context frames to reconstruct a 3D Gaussian scene at a selected target timestamp.</li><li>Uses a formulation intended to train across both static and dynamic scene datasets.</li></ol> |
 | [L4GM: Large 4D Gaussian Reconstruction Model](https://arxiv.org/abs/2406.10324) (2024)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://research.nvidia.com/labs/toronto-ai/l4gm/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/nv-tlabs/L4GM-official "Functional GitHub repository")<br><sub>feed-forward &middot; monocular &middot; large-model &middot; native-4dgs &middot; generation</sub> | <ol><li>Introduces a large reconstruction model that produces animated objects from single-view video in one feed-forward pass.</li><li>Builds a curated multiview animated-object training dataset derived from Objaverse assets.</li><li>Extends LGM with temporal self-attention and an interpolation model to produce temporally smoother per-frame Gaussian representations.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## Dynamic tracking, segmentation, and SLAM
 
 This section covers persistent point tracking, motion scaffolds, 4D scene understanding, and
 dynamics-aware mapping. Some reconstruction papers are repeated because tracking is a primary
 output of the method.
+
+<!-- paper-category:start -->
+- [Track2Map: Online Deformable SLAM with Motion-Aware Pose Optimization in Robotic Surgery](https://arxiv.org/abs/2607.08408) (2026) [page](https://track2map.github.io/) [code](https://github.com/styufo/Track2Map)
+- [DeGenseGS: Geometrically and Semantically Decoupled Surgical Scene Understanding in 4D Gaussian Splatting](https://arxiv.org/abs/2607.04761) (2026) [code](https://github.com/yimowwwww/DeGenseGS)
+- [PhysMani: Physics-principled 3D World Model for Dynamic Object Manipulation](https://arxiv.org/abs/2607.01938) (2026) [code](https://github.com/vLAR-group/PhysMani)
+- [DLGStream: Dynamic Language-embedded Guassian Splatting for Open-vocabulary Enabled Free-viewpoint Video Streaming](https://arxiv.org/abs/2606.28840) (2026) [code](https://github.com/kkkzh/DLGStream)
+- [SemDynReg: Semantics-Guided Deformation Regularization for Dynamic 3D Gaussian Splatting](https://arxiv.org/abs/2606.28656) (2026) [page](https://dyn-reg-3dgs.github.io/)
+- [Multi4D: High-Fidelity Dynamic Gaussian Splatting via Multi-Level Competitive Allocation](https://arxiv.org/abs/2606.22197) (2026) [page](https://batfacewayne.github.io/Multi4D.io/)
+- [Intrinsic 4D Gaussian Segmentation from Scene Cues](https://arxiv.org/abs/2606.18623) (2026) [page](https://kurbanintelligencelab.github.io/intrinsic-gs/) [code](https://github.com/KurbanIntelligenceLab/intrinsic-gs)
+- [Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction](https://arxiv.org/abs/2605.31595) (2026) [page](https://cvlab-kaist.github.io/C4G/) [code](https://github.com/cvlab-kaist/C4G)
+- [R5DGS: Semantic-Aware 4D Gaussian Splatting with Rigid Body Constraints for Efficient Dynamic Scene Reconstruction](https://arxiv.org/abs/2605.25909) (2026)
+- [PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction](https://arxiv.org/abs/2605.10307) (2026) [page](https://pamosplat.github.io/) [code](https://github.com/BIT-DYN/pamosplat)
+- [Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM](https://arxiv.org/abs/2604.22339) (2026) [page](https://wangys16.github.io/Flow4DGS-SLAM/) [code](https://github.com/wangys16/Flow4DGS-SLAM)
+- [TrackerSplat: Exploiting Point Tracking for Fast and Robust Dynamic 3D Gaussians Reconstruction](https://arxiv.org/abs/2604.02586) (2026) [code](https://github.com/yindaheng98/TrackerSplat)
+- [Director: Instance-aware Gaussian Splatting for Dynamic Scene Modeling and Understanding](https://arxiv.org/abs/2604.01678) (2026) [page](https://caiyw2023.github.io/Director/)
+- [MotionScale: Reconstructing Appearance, Geometry, and Motion of Dynamic Scenes with Scalable 4D Gaussian Splatting](https://arxiv.org/abs/2603.29296) (2026) [page](https://hrzhou2.github.io/motion-scale-web/) [code](https://github.com/hrzhou2/motion-scale)
+- [MoRGS: Efficient Per-Gaussian Motion Reasoning for Streamable Dynamic 3D Scenes](https://arxiv.org/abs/2603.25042) (2026)
+- [4D Synchronized Fields: Motion-Language Gaussian Splatting for Temporal Scene Understanding](https://arxiv.org/abs/2603.14301) (2026)
+- [Space-Time Forecasting of Dynamic Scenes with Motion-aware Gaussian Grouping](https://arxiv.org/abs/2602.21668) (2026) [page](https://slime0519.github.io/mogaf)
+- [RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction](https://arxiv.org/abs/2602.20807) (2026) [page](https://ru4d-slam.github.io/) [code](https://github.com/CNU-Bot-Group/ru4dslam)
+- [TIBR4D: Tracing-Guided Iterative Boundary Refinement for Efficient 4D Gaussian Segmentation](https://arxiv.org/abs/2602.08540) (2026)
+- [Next Best View Selections for Semantic and Dynamic 3D Gaussian Splatting](https://arxiv.org/abs/2512.22771) (2025)
+- [D GSLAM: 4D Dynamic Gaussian Splatting SLAM](https://arxiv.org/abs/2512.09411) (2025)
+- [Motion4D: Learning 3D-Consistent Motion and Semantics for 4D Scene Understanding](https://arxiv.org/abs/2512.03601) (2025) [page](https://hrzhou2.github.io/motion4d-web/)
+- [TagSplat: Topology-Aware Gaussian Splatting for Dynamic Mesh Modeling and Tracking](https://arxiv.org/abs/2512.01329) (2025) [page](https://haza628.github.io/tagSplat/)
+- [From Tokens to Nodes: Semantic-Guided Motion Control for Dynamic 3D Gaussian Splatting](https://arxiv.org/abs/2510.02732) (2025)
+- [ST-GS: Vision-Based 3D Semantic Occupancy Prediction with Spatial-Temporal Gaussian Splatting](https://arxiv.org/abs/2509.16552) (2025)
+- [DLO-Splatting: Tracking Deformable Linear Objects Using 3D Gaussian Splatting](https://arxiv.org/abs/2505.08644) (2025)
+- [Embracing Dynamics: Dynamics-aware 4D Gaussian Splatting SLAM](https://arxiv.org/abs/2504.04844) (2025) [page](https://zhicongsun.github.io/d4dgs)
+- [Divide-and-Conquer: Dual-Hierarchical Optimization for Semantic 4D Gaussian Spatting](https://arxiv.org/abs/2503.19332) (2025) [page](https://sweety-yan.github.io/DHO)
+- [4D Gaussian Splatting SLAM](https://arxiv.org/abs/2503.16710) (2025) [page](https://yanyan-li.github.io/project/gs/4dgsslam.html) [code](https://github.com/yanyan-li/4DGS-SLAM)
+- [DynaGSLAM: Real-Time Gaussian-Splatting SLAM for Online Rendering, Tracking, Motion Predictions of Moving Objects in Dynamic Scenes](https://arxiv.org/abs/2503.11979) (2025) [page](https://blarklee.github.io/dynagslam/)
+- [4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models](https://arxiv.org/abs/2503.10437) (2025) [page](https://4d-langsplat.github.io/)
+- [Persistent Object Gaussian Splat (POGS) for Tracking Human and Robot Manipulation of Irregularly Shaped Objects](https://arxiv.org/abs/2503.05189) (2025)
+- [Dynamic 3D Gaussian Tracking for Graph-Based Neural Dynamics Modeling](https://arxiv.org/abs/2410.18912) (2024) [page](https://gs-dynamics.github.io/) [code](https://github.com/robo-alex/gs-dynamics)
+- [4-LEGS: 4D Language Embedded Gaussian Splatting](https://arxiv.org/abs/2410.10719) (2024) [page](https://tau-vailab.github.io/4-LEGS/)
+- [Shape of Motion: 4D Reconstruction from a Single Video](https://arxiv.org/abs/2407.13764) (2024) [page](https://shape-of-motion.github.io/) [code](https://github.com/vye16/shape-of-motion)
+- [Segment Any 4D Gaussians](https://arxiv.org/abs/2407.04504) (2024) [page](https://jsxzs.github.io/sa4d/)
+- [EgoGaussian: Dynamic Scene Understanding from Egocentric Video with 3D Gaussian Splatting](https://arxiv.org/abs/2406.19811) (2024) [page](https://zdwww.github.io/egogs.github.io/) [code](https://github.com/zdwww/EgoGaussian)
+- [DGD: Dynamic 3D Gaussians Distillation](https://arxiv.org/abs/2405.19321) (2024) [page](https://isaaclabe.github.io/DGD-Website/) [code](https://github.com/Isaaclabe/DGD-Dynamic-3D-Gaussians-Distillation)
+- [MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds](https://arxiv.org/abs/2405.17421) (2024) [page](https://jiahuilei.com/projects/mosca/) [code](https://github.com/JiahuiLei/MoSca)
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](https://arxiv.org/abs/2312.00112) (2023) [page](https://agelosk.github.io/dynmf/)
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](https://arxiv.org/abs/2308.09713) (2023) [page](https://dynamic3dgaussians.github.io/) [code](https://github.com/JonathonLuiten/Dynamic3DGaussians)
+
+<details>
+<summary>Detailed contributions (41 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -386,11 +716,67 @@ output of the method.
 | [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](https://arxiv.org/abs/2312.00112) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://agelosk.github.io/dynmf/ "Project page")<br><sub>efficiency &middot; per-scene &middot; deformable-3dgs &middot; fast-training &middot; real-time &middot; tracking</sub> | <ol><li>Factorizes Gaussian motion into a small set of global basis trajectories and per-Gaussian combination coefficients.</li><li>Uses sparsity to disentangle independently moving regions without requiring object-level supervision.</li><li>Provides efficient training and real-time rendering while exposing trajectories useful for point tracking.</li></ol> |
 | [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](https://arxiv.org/abs/2308.09713) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://dynamic3dgaussians.github.io/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/JonathonLuiten/Dynamic3DGaussians "Functional GitHub repository")<br><sub>tracking-slam &middot; multi-view &middot; per-scene &middot; deformable-3dgs &middot; tracking &middot; editing</sub> | <ol><li>Jointly performs dynamic novel-view synthesis and dense 6-DoF tracking of scene elements.</li><li>Allows Gaussians to move and rotate while enforcing persistent color, opacity, and size over time.</li><li>Regularizes motion and rotation with local-rigidity constraints.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## Dynamic humans and avatars
 
 This section includes dynamic-human reconstruction and animatable Gaussian avatars. These works
 may use articulated or mesh-anchored 3D Gaussians instead of a native 4D Gaussian primitive, but
 they represent appearance over time and are part of the wider 4DGS ecosystem.
+
+<!-- paper-category:start -->
+- [FA-LAM: Focus-Aware Large Avatar Model for One-Shot 4D Animatable Gaussian Head](https://arxiv.org/abs/2607.20922) (2026)
+- [FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility](https://arxiv.org/abs/2607.19100) (2026) [page](https://yihalem1.github.io/FlexiAvatar/)
+- [GaussianEmoTalker: Real-Time Emotional Talking Head Synthesis with Audio-Driven and Blendshape-Based 3D Gaussian Splatting](https://arxiv.org/abs/2607.00959) (2026) [page](https://njust-yang.github.io/GaussianEmoTalker.github.io/)
+- [FFAvatar: Feed-Forward 4D Head Avatar Reconstruction from Sparse Portrait Images](https://arxiv.org/abs/2606.30347) (2026) [page](https://jj-yao.github.io/ffavatar/)
+- [RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction](https://arxiv.org/abs/2606.29329) (2026) [page](https://miraymen.github.io/raga/)
+- [FiCA: Feed-forward instant Gaussian Codec Avatars from a Single Portrait Image](https://arxiv.org/abs/2606.24232) (2026) [page](https://kim-youwang.github.io/FiCA)
+- [SpatialAvatar-0: High-Quality 4D Head Avatar with Multi-Stage Reconstruction](https://arxiv.org/abs/2606.15659) (2026) [page](https://spatialwalk.github.io/SpatialAvatar-0)
+- [Self-Learning Expression Deformations for Data-Efficient Gaussian Avatars](https://arxiv.org/abs/2606.05912) (2026)
+- [AvatarPointillist: AutoRegressive 4D Gaussian Avatarization](https://arxiv.org/abs/2604.04787) (2026) [page](https://kumapowerliu.github.io/AvatarPointillist/)
+- [HOIGS: Human-Object Interaction Gaussian Splatting](https://arxiv.org/abs/2604.04016) (2026)
+- [AHOY! Animatable Humans under Occlusion from YouTube Videos with Gaussian Splatting and Video Diffusion Priors](https://arxiv.org/abs/2603.17975) (2026) [page](https://miraymen.github.io/ahoy/)
+- [ProgressiveAvatars: Progressive Animatable 3D Gaussian Avatars](https://arxiv.org/abs/2603.16447) (2026) [page](https://ustc3dv.github.io/ProgressiveAvatars/)
+- [Uncertainty-Aware 4D Gaussian Splatting for Monocular Occluded Human Rendering](https://arxiv.org/abs/2602.06343) (2026)
+- [VRGaussianAvatar: Integrating 3D Gaussian Avatars into VR](https://arxiv.org/abs/2602.01674) (2026) [page](https://vrgaussianavatar.github.io)
+- [Animated 3DGS Avatars in Diverse Scenes with Consistent Lighting and Shadows](https://arxiv.org/abs/2601.01660) (2026)
+- [Interaction-Aware 4D Gaussian Splatting for Dynamic Hand-Object Interaction Reconstruction](https://arxiv.org/abs/2511.14540) (2025) [page](https://haotian23ucas.github.io/Interaction-Aware-Gau/)
+- [AHA! Animating Human Avatars in Diverse Scenes with Gaussian Splatting](https://arxiv.org/abs/2511.09827) (2025) [page](https://miraymen.github.io/aha/)
+- [HGC-Avatar: Hierarchical Gaussian Compression for Streamable Dynamic 3D Avatars](https://arxiv.org/abs/2510.16463) (2025)
+- [FMGS-Avatar: Mesh-Guided 2D Gaussian Splatting with Foundation Model Priors for 3D Monocular Avatar Reconstruction](https://arxiv.org/abs/2509.14739) (2025)
+- [StreamME: Simplify 3D Gaussian Avatar within Live Stream](https://arxiv.org/abs/2507.17029) (2025) [page](https://songluchuan.github.io/StreamME/)
+- [HyperGaussians: High-Dimensional Gaussian Splatting for High-Fidelity Animatable Face Avatars](https://arxiv.org/abs/2507.02803) (2025) [page](https://gserifi.github.io/HyperGaussians)
+- [SkinningGS: Editable Dynamic Human Scene Reconstruction Using Gaussian Splatting Based on a Skinning Model](https://arxiv.org/abs/2506.21632) (2025)
+- [GSAC: Leveraging Gaussian Splatting for Photorealistic Avatar Creation with Unity Integration](https://arxiv.org/abs/2504.12999) (2025) [code](https://github.com/VU-RASL/GSAC)
+- [TaoAvatar: Real-Time Lifelike Full-Body Talking Avatars for Augmented Reality via 3D Gaussian Splatting](https://arxiv.org/abs/2503.17032) (2025) [page](https://pixelai-team.github.io/TaoAvatar)
+- [GaussianAvatar-Editor: Photorealistic Animatable Gaussian Head Avatar Editor](https://arxiv.org/abs/2501.09978) (2025) [page](https://xiangyueliu.github.io/GaussianAvatar-Editor/)
+- [GASP: Gaussian Avatars with Synthetic Priors](https://arxiv.org/abs/2412.07739) (2024) [page](https://microsoft.github.io/GASP/)
+- [Sequential Gaussian Avatars with Hierarchical Motion Context](https://arxiv.org/abs/2411.16768) (2024) [page](https://zezeaaa.github.io/projects/SeqAvatar/)
+- [Generalizable and Animatable Gaussian Head Avatar](https://arxiv.org/abs/2410.07971) (2024) [page](https://xg-chu.site/project_gagavatar/) [code](https://github.com/xg-chu/GAGAvatar)
+- [Robust Dual Gaussian Splatting for Immersive Human-centric Volumetric Videos](https://arxiv.org/abs/2409.08353) (2024) [page](https://nowheretrix.github.io/DualGS/)
+- [Expressive Whole-Body 3D Gaussian Avatar](https://arxiv.org/abs/2407.21686) (2024) [page](https://mks0601.github.io/ExAvatar/) [code](https://github.com/mks0601/ExAvatar_RELEASE)
+- [GoMAvatar: Efficient Animatable Human Modeling from Monocular Video Using Gaussians-on-Mesh](https://arxiv.org/abs/2404.07991) (2024) [page](https://wenj.github.io/GoMAvatar/) [code](https://github.com/wenj/GoMAvatar)
+- [HAHA: Highly Articulated Gaussian Human Avatars with Textured Mesh Prior](https://arxiv.org/abs/2404.01053) (2024) [page](https://david-svitov.github.io/HAHA_project_page/) [code](https://github.com/david-svitov/HAHA)
+- [SplattingAvatar: Realistic Real-Time Human Avatars with Mesh-Embedded Gaussian Splatting](https://arxiv.org/abs/2403.05087) (2024) [page](https://initialneil.github.io/SplattingAvatar) [code](https://github.com/initialneil/SplattingAvatar/tree/neil-dev)
+- [GaussianBody: Clothed Human Reconstruction via 3d Gaussian Splatting](https://arxiv.org/abs/2401.09720) (2024)
+- [Deformable 3D Gaussian Splatting for Animatable Human Avatars](https://arxiv.org/abs/2312.15059) (2023)
+- [3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting](https://arxiv.org/abs/2312.09228) (2023) [page](https://neuralbodies.github.io/3DGS-Avatar) [code](https://github.com/mikeqzy/3dgs-avatar-release)
+- [ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering](https://arxiv.org/abs/2312.05941) (2023) [page](https://vcai.mpi-inf.mpg.de/projects/ash/) [code](https://github.com/kv2000/ASH)
+- [HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting](https://arxiv.org/abs/2312.03461) (2023) [page](https://nowheretrix.github.io/HiFi4G/)
+- [GauHuman: Articulated Gaussian Splatting from Monocular Human Videos](https://arxiv.org/abs/2312.02973) (2023) [page](https://skhu101.github.io/GauHuman/) [code](https://github.com/skhu101/GauHuman)
+- [HeadGaS: Real-Time Animatable Head Avatars via 3D Gaussian Splatting](https://arxiv.org/abs/2312.02902) (2023)
+- [GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians](https://arxiv.org/abs/2312.02134) (2023) [page](https://huliangxiao.github.io/GaussianAvatar) [code](https://github.com/aipixel/GaussianAvatar)
+- [GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians](https://arxiv.org/abs/2312.02069) (2023) [page](https://shenhanqian.github.io/gaussian-avatars) [code](https://github.com/ShenhanQian/GaussianAvatars)
+- [HUGS: Human Gaussian Splats](https://arxiv.org/abs/2311.17910) (2023) [page](https://machinelearning.apple.com/research/hugs) [code](https://github.com/apple/ml-hugs)
+- [Human Gaussian Splatting: Real-time Rendering of Animatable Avatars](https://arxiv.org/abs/2311.17113) (2023) [page](https://perezpellitero.github.io/projects/hugs/)
+- [GART: Gaussian Articulated Template Models](https://arxiv.org/abs/2311.16099) (2023) [page](https://jiahuilei.com/projects/gart/) [code](https://github.com/JiahuiLei/GART)
+- [Animatable and Relightable Gaussians for High-fidelity Human Avatar Modeling](https://arxiv.org/abs/2311.16096) (2023) [page](https://animatable-gaussians.github.io/) [code](https://github.com/lizhe00/AnimatableGaussians)
+- [SplatArmor: Articulated Gaussian splatting for animatable humans from monocular RGB videos](https://arxiv.org/abs/2311.10812) (2023) [page](https://jenaroh.it/splatarmor/)
+- [Drivable 3D Gaussian Avatars](https://arxiv.org/abs/2311.08581) (2023) [page](https://wojciechzielonka.com/d3ga/) [code](https://github.com/facebookresearch/D3GA)
+
+<details>
+<summary>Detailed contributions (48 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -443,11 +829,39 @@ they represent appearance over time and are part of the wider 4DGS ecosystem.
 | [SplatArmor: Articulated Gaussian splatting for animatable humans from monocular RGB videos](https://arxiv.org/abs/2311.10812) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://jenaroh.it/splatarmor/ "Project page")<br><sub>avatar &middot; monocular &middot; human &middot; per-scene &middot; mesh-anchored &middot; deformable-3dgs</sub> | <ol><li>Represents a human with canonical 3D Gaussians whose articulation extends SMPL forward skinning to arbitrary canonical-space locations.</li><li>Introduces a pose-dependent SE(3) field that controls both Gaussian positions and anisotropy.</li><li>Uses a neural color field for color regularization and 3D supervision of Gaussian placement.</li></ol> |
 | [Drivable 3D Gaussian Avatars](https://arxiv.org/abs/2311.08581) (2023)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://wojciechzielonka.com/d3ga/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/facebookresearch/D3GA "Functional GitHub repository")<br><sub>avatar &middot; multi-view &middot; human &middot; mesh-anchored &middot; explicit &middot; tracking</sub> | <ol><li>Embeds 3D Gaussian primitives in tetrahedral cages, using deformation gradients to transform their orientation and kernels.</li><li>Decouples low-dimensional driving signals from Gaussian primitives through localized cage deformation and learned vertex offsets.</li><li>Composes independently driven avatar layers, such as garments, hands, and face.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## Adjacent and supporting dynamic-view work
 
 Non-Gaussian dynamic-view methods, static-map dynamic SLAM systems, datasets, surveys, and other
 context useful for evaluating or understanding 4DGS. These records are deliberately separated
 from methods whose central representation is a time-varying Gaussian field.
+
+<!-- paper-category:start -->
+- [DL-SLAM: Enabling High-Fidelity Gaussian Splatting SLAM in Dynamic Environments based on Dual-Level Probability](https://arxiv.org/abs/2607.01860) (2026)
+- [Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction](https://arxiv.org/abs/2606.13655) (2026) [page](https://andy-cheng.github.io/Flex4DHuman/) [code](https://github.com/Andy-Cheng/Flex4DHuman)
+- [AvatarMix: Identity-Preserving Cross-Avatar Composition for Outfit Personalization](https://arxiv.org/abs/2606.03506) (2026) [page](https://larsph.github.io/avatarmix/)
+- [GS-Surrogate: Deformable Gaussian Splatting for Parameter Space Exploration of Ensemble Simulations](https://arxiv.org/abs/2604.06358) (2026)
+- [GTAvatar: Bridging Gaussian Splatting and Texture Mapping for Relightable and Editable Gaussian Avatars](https://arxiv.org/abs/2512.09162) (2025) [page](https://kelianb.github.io/GTAvatar/) [code](https://github.com/KelianB/GTAvatar)
+- [SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting](https://arxiv.org/abs/2512.07197) (2025)
+- [TGSFormer: Scalable Temporal Gaussian Splatting for Embodied Semantic Scene Completion](https://arxiv.org/abs/2512.00300) (2025)
+- [4DNeX: Feed-Forward 4D Generative Modeling Made Easy](https://arxiv.org/abs/2508.13154) (2025) [page](https://4dnex.github.io/) [code](https://github.com/3DTopia/4DNeX)
+- [PhysGaia: A Physics-Aware Benchmark with Multi-Body Interactions for Dynamic Novel View Synthesis](https://arxiv.org/abs/2506.02794) (2025) [page](https://cv.snu.ac.kr/research/PhysGaia/)
+- [Advancing Dense Endoscopic Reconstruction with Gaussian Splatting-driven Surface Normal-aware Tracking and Mapping](https://arxiv.org/abs/2501.19319) (2025) [code](https://github.com/lastbasket/Endo-2DTAM)
+- [DGS-SLAM: Gaussian Splatting SLAM in Dynamic Environment](https://arxiv.org/abs/2411.10722) (2024) [code](https://github.com/kmk97/DGS-SLAM)
+- [DG-SLAM: Robust Dynamic Gaussian Splatting SLAM with Hybrid Pose Optimization](https://arxiv.org/abs/2411.08373) (2024) [code](https://github.com/fudan-zvg/DG-SLAM)
+- [4K4D: Real-Time 4D View Synthesis at 4K Resolution](https://arxiv.org/abs/2310.11448) (2023) [page](https://zju3dv.github.io/4k4d/) [code](https://github.com/zju3dv/4K4D)
+- [HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion](https://arxiv.org/abs/2305.06356) (2023) [page](https://actors-hq.com/)
+- [Monocular Dynamic View Synthesis: A Reality Check](https://arxiv.org/abs/2210.13445) (2022) [page](https://kair-bair.github.io/dycheck/) [code](https://github.com/KAIR-BAIR/dycheck)
+- [Efficient Neural Radiance Fields for Interactive Free-viewpoint Video](https://arxiv.org/abs/2112.01517) (2021) [page](https://zju3dv.github.io/enerf/) [code](https://github.com/zju3dv/EasyVolcap)
+- [HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields](https://arxiv.org/abs/2106.13228) (2021) [page](https://hypernerf.github.io/) [code](https://github.com/google/hypernerf)
+- [Neural 3D Video Synthesis from Multi-view Video](https://arxiv.org/abs/2103.02597) (2021) [page](https://neural-3d-video.github.io/)
+- [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://arxiv.org/abs/2012.15838) (2020) [page](https://zju3dv.github.io/neuralbody/) [code](https://github.com/zju3dv/neuralbody)
+- [D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://arxiv.org/abs/2011.13961) (2020) [page](https://www.albertpumarola.com/research/D-NeRF/index.html) [code](https://github.com/albertpumarola/D-NeRF)
+
+<details>
+<summary>Detailed contributions (20 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -472,7 +886,20 @@ from methods whose central representation is a time-varying Gaussian field.
 | [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://arxiv.org/abs/2012.15838) (2020)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://zju3dv.github.io/neuralbody/ "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/zju3dv/neuralbody "Functional GitHub repository")<br><sub>reconstruction &middot; multi-view &middot; human &middot; mesh-anchored &middot; per-scene</sub> | <ol><li>Adjacent work — Neural Body is an implicit neural human representation without Gaussian primitives.</li><li>Introduces a deformable-mesh-anchored latent representation that integrates observations across video frames for sparse-view human synthesis.</li><li>Releases ZJU-MoCap, a multi-view dataset of performers with complex motions.</li></ol> |
 | [D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://arxiv.org/abs/2011.13961) (2020)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://www.albertpumarola.com/research/D-NeRF/index.html "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/albertpumarola/D-NeRF "Functional GitHub repository")<br><sub>reconstruction &middot; monocular &middot; per-scene &middot; continuous-time</sub> | <ol><li>Adjacent work — D-NeRF is a dynamic neural radiance field with canonical deformation, not Gaussian splatting.</li><li>Extends NeRF to dynamic scenes by making time an input and learning canonicalization and time-specific deformation mappings.</li><li>Reconstructs rigid, articulated, and non-rigid motion from a moving monocular camera.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## Dataset and benchmark papers
+
+<!-- paper-category:start -->
+- [3D Gaussian Splatting for Efficient Retrospective Dynamic Scene Novel View Synthesis with a Standardized Benchmark](https://arxiv.org/abs/2605.12437) (2026)
+- [Bringing a Personal Point of View: Evaluating Dynamic 3D Gaussian Splatting for Egocentric Scene Reconstruction](https://arxiv.org/abs/2604.23803) (2026)
+- [Realizing Immersive Volumetric Video: A Multimodal Framework for 6-DoF VR Engagement](https://arxiv.org/abs/2604.09473) (2026)
+- [Style4D-Bench: A Benchmark Suite for 4D Stylization](https://arxiv.org/abs/2508.19243) (2025) [page](https://becky-catherine.github.io/Style4D) [code](https://github.com/Becky-catherine/Style4D-Bench)
+- [Monocular Dynamic Gaussian Splatting: Fast, Brittle, and Scene Complexity Rules](https://arxiv.org/abs/2412.04457) (2024)
+
+<details>
+<summary>Detailed contributions (5 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
@@ -482,6 +909,9 @@ from methods whose central representation is a time-varying Gaussian field.
 | [Style4D-Bench: A Benchmark Suite for 4D Stylization](https://arxiv.org/abs/2508.19243) (2025)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://becky-catherine.github.io/Style4D "Project page") [![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/Becky-catherine/Style4D-Bench "Functional GitHub repository")<br><sub>data-benchmark &middot; multi-view &middot; native-4dgs &middot; editing &middot; benchmark</sub> | <ol><li>Defines a benchmark suite for standardized evaluation of 4D stylization.</li><li>Couples a base 4DGS scene representation with per-Gaussian MLPs for temporally and spatially aware appearance control.</li></ol> |
 | [Monocular Dynamic Gaussian Splatting: Fast, Brittle, and Scene Complexity Rules](https://arxiv.org/abs/2412.04457) (2024)<br><br><sub>data-benchmark &middot; monocular &middot; multi-view &middot; dataset &middot; benchmark &middot; synthetic</sub> | <ol><li>Organizes, benchmark, and analyze many Gaussian-splatting-based methods, providing apples-to-apples comparisons that prior works have lacked.</li><li>Uses multiple existing datasets and a new instructive synthetic dataset designed to isolate factors that affect reconstruction quality.</li><li>Categorizes Gaussian splatting methods into specific motion representation types and quantify how their differences impact performance.</li></ol> |
 
+</details>
+<!-- paper-category:end -->
+
 ## Datasets
 
 Benchmarks used for training or evaluation by at least eight scope-audited direct dynamic-Gaussian papers. Names are
@@ -490,24 +920,24 @@ available. **Data license** reports explicit dataset terms; `Repository:` applie
 
 | Dataset | Direct 4DGS papers | Typical benchmark scope | Scale | Reference | Data license | Data / Project |
 | --- | ---: | --- | --- | --- | --- | --- |
-| Neural 3D Video | 109 | Synchronized multi-view dynamic scenes | 6 scenes · 300-frame clips · 18–21 cameras · 2704×2028 @ 30 FPS | [Neural 3D Video Synthesis from Multi-view Video](https://arxiv.org/abs/2103.02597) | Not stated | [Official page](https://neural-3d-video.github.io/) |
-| D-NeRF | 51 | Synthetic monocular dynamic scenes | 8 scenes · 50–200 train + 20 test images · 800×800 | [D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://arxiv.org/abs/2011.13961) | Not stated | [Official page](https://www.albertpumarola.com/research/D-NeRF/index.html) |
-| HyperNeRF | 47 | Casual monocular non-rigid and topology-changing scenes | 17 scenes · monocular captures · validation rigs | [HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields](https://arxiv.org/abs/2106.13228) | Not stated | [Official page](https://hypernerf.github.io/) |
-| DyCheck iPhone | 33 | Casual monocular dynamic iPhone captures | 14 sequences · 7 with multi-camera validation | [Monocular Dynamic View Synthesis: A Reality Check](https://arxiv.org/abs/2210.13445) | Not stated | [Official page](https://kair-bair.github.io/dycheck/) |
+| Neural 3D Video | 109 | Synchronized multi-view dynamic scenes | 6 scenes · 300-frame clips · 18–21 cameras · 2704×2028 @ 30 FPS | [Neural 3D Video Synthesis from Multi-view Video](https://arxiv.org/abs/2103.02597) | [CC-BY-NC-4.0](https://github.com/facebookresearch/Neural_3D_Video/blob/main/LICENSE) | [Official page](https://github.com/facebookresearch/Neural_3D_Video) |
+| D-NeRF | 51 | Synthetic monocular dynamic scenes | 8 scenes · 50–200 train + 20 test images · 800×800 | [D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://arxiv.org/abs/2011.13961) | [Repository: MIT](https://github.com/albertpumarola/D-NeRF/blob/main/LICENSE) | [Official page](https://www.albertpumarola.com/research/D-NeRF/index.html) |
+| HyperNeRF | 47 | Casual monocular non-rigid and topology-changing scenes | 17 scenes · monocular captures · validation rigs | [HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields](https://arxiv.org/abs/2106.13228) | [Repository: Apache-2.0](https://github.com/google/hypernerf/blob/main/LICENSE) | [Official page](https://hypernerf.github.io/) |
+| DyCheck iPhone | 33 | Casual monocular dynamic iPhone captures | 14 sequences · 7 with multi-camera validation | [Monocular Dynamic View Synthesis: A Reality Check](https://arxiv.org/abs/2210.13445) | [Apache-2.0](https://github.com/KAIR-BAIR/dycheck/blob/main/LICENSE) | [Official page](https://kair-bair.github.io/dycheck/) |
 | MeetRoom | 23 | Long-duration multi-view indoor free-viewpoint video | 3 scenes · 300 frames each · 13 cameras · 1280×720 | [Streaming Radiance Fields for 3D Video Synthesis](https://arxiv.org/abs/2210.14831) | [Repository: BSD-2-Clause](https://github.com/AlgoHunt/StreamRF/blob/main/LICENSE) | [Official page](https://github.com/AlgoHunt/StreamRF) |
-| Technicolor | 20 | Synchronized multi-view light-field video | 16 cameras (4×4) · 2048×1088 · 30 FPS | [Dataset and Pipeline for Multi-View Light-Field Video](https://doi.org/10.1109/CVPRW.2017.221) | Not stated | [Official page](https://www.interdigital.com/data_sets/light-field-dataset) |
-| NeRF-DS | 18 | Monocular dynamic scenes with specular objects | 8 scenes · 2 cameras · ~500 frames/video · 480×270 | [NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects](https://arxiv.org/abs/2303.14435) | Not stated | [Official page](https://jokeryan.github.io/projects/nerf-ds/) |
-| NVIDIA Dynamic Scenes | 18 | Monocular real-world dynamic-scene videos | 8 real-world sequences · monocular | [Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths from a Monocular Camera](https://arxiv.org/abs/2004.01294) | Not stated | [Official page](https://research.nvidia.com/publication/2020-06_novel-view-synthesis-dynamic-scenes-globally-coherent-depths) |
-| PanopticSports | 14 | Prepared multi-view sports sequences with 3D tracks | 6 sequences · 150 frames each · 31 cameras | [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](https://arxiv.org/abs/2308.09713) | Not stated | [Official page](https://dynamic3dgaussians.github.io/) |
-| Waymo Open | 13 | Autonomous-driving camera and LiDAR sequences | 2,030 perception segments · 5 cameras · 20 s each | [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) | Not stated | [Official page](https://waymo.com/open/) |
-| ZJU-MoCap | 12 | Calibrated multi-view articulated-human performances | 10 subjects · 23 synchronized cameras | [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://arxiv.org/abs/2012.15838)<br>[Efficient Neural Radiance Fields for Interactive Free-viewpoint Video](https://arxiv.org/abs/2112.01517) | [Repository: custom](https://github.com/zju3dv/EasyMocap/blob/master/LICENSE) | [Official page](https://github.com/zju3dv/EasyMocap) |
+| Technicolor | 20 | Synchronized multi-view light-field video | 16 cameras (4×4) · 2048×1088 · 30 FPS | [Dataset and Pipeline for Multi-View Light-Field Video](https://doi.org/10.1109/CVPRW.2017.221) | [Research/non-commercial terms](https://www.interdigital.com/data_sets/light-field-dataset) | [Official page](https://www.interdigital.com/data_sets/light-field-dataset) |
+| NeRF-DS | 18 | Monocular dynamic scenes with specular objects | 8 scenes · 2 cameras · ~500 frames/video · 480×270 | [NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects](https://arxiv.org/abs/2303.14435) | [Repository: Apache-2.0](https://github.com/JokerYan/NeRF-DS/blob/main/LICENSE) | [Official page](https://jokeryan.github.io/projects/nerf-ds/) |
+| NVIDIA Dynamic Scenes | 18 | Monocular real-world dynamic-scene videos | 8 real-world sequences · monocular | [Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths from a Monocular Camera](https://arxiv.org/abs/2004.01294) | [CC BY-NC-ND (version not stated)](https://gorokee.github.io/jsyoon/dynamic_synth/) | [Official page](https://gorokee.github.io/jsyoon/dynamic_synth/) |
+| PanopticSports | 14 | Prepared multi-view sports sequences with 3D tracks | 6 sequences · 150 frames each · 31 cameras | [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](https://arxiv.org/abs/2308.09713) | [Research/non-commercial terms](https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox#license) | [Official page](https://dynamic3dgaussians.github.io/) |
+| Waymo Open | 13 | Autonomous-driving camera and LiDAR sequences | 2,030 perception segments · 5 cameras · 20 s each | [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/abs/1912.04838) | [Waymo Dataset License Agreement for Non-Commercial Use](https://waymo.com/open/terms/) | [Official page](https://waymo.com/open/download/) |
+| ZJU-MoCap | 12 | Calibrated multi-view articulated-human performances | 10 subjects · 23 synchronized cameras | [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://arxiv.org/abs/2012.15838)<br>[Efficient Neural Radiance Fields for Interactive Free-viewpoint Video](https://arxiv.org/abs/2112.01517) | [ZJU-MoCap Agreement (non-commercial research only)](https://pengsida.net/project_page_assets/files/ZJU-MoCap_Agreement.pdf) | [Official page](https://zju3dv.github.io/zju_mocap/) |
 | Google Immersive | 10 | Immersive multi-view light-field video | 46 cameras · 30 FPS · >220° field of view | [Immersive Light Field Video with a Layered Mesh Representation](https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf) | Not stated | [Official page](https://augmentedperception.github.io/deepviewvideo/) |
 | PeopleSnapshot | 10 | Monocular videos of clothed people rotating in place | 24 sequences · 11 subjects · 300–800 frames each | [Video Based Reconstruction of 3D People Models](https://arxiv.org/abs/1803.04758) | Not stated | [Official page](https://vcai.mpi-inf.mpg.de/projects/wxu/VideoAvatar/) |
 | Bonn RGB-D Dynamic | 9 | Dynamic RGB-D sequences for tracking and SLAM | 26 sequences · monocular RGB-D · 640×480 | [ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals](https://arxiv.org/abs/1905.02082) | Not stated | [Official page](https://www.ipb.uni-bonn.de/data/rgbd-dynamic-dataset/) |
 | NeRSemble | 9 | High-resolution multi-view facial performances | >4,700 sequences · >220 subjects · 16 cameras | [NeRSemble: Multi-view Radiance Field Reconstruction of Human Heads](https://arxiv.org/abs/2305.03027) | Not stated | [Official page](https://tobias-kirschstein.github.io/nersemble/) |
-| ActorsHQ | 8 | High-resolution multi-view human performances | 16 sequences · 39,765 frames · 160 cameras | [HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion](https://arxiv.org/abs/2305.06356) | Not stated | [Official page](https://actors-hq.com/) |
-| NeuMan | 8 | Monocular people moving through real environments | Monocular clips · approximately 10 s each | [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/abs/2203.12575) | Not stated | [Official page](https://machinelearning.apple.com/research/neural-human-radiance-field) |
-| nuScenes | 8 | Autonomous-driving camera and LiDAR sequences | 1,000 scenes · 1.4M images · 6 cameras · 20 s each | [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027) | Not stated | [Official page](https://www.nuscenes.org/) |
+| ActorsHQ | 8 | High-resolution multi-view human performances | 16 sequences · 39,765 frames · 160 cameras | [HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion](https://arxiv.org/abs/2305.06356) | [ActorsHQ License Agreement](https://drive.google.com/file/d/1QpZIhsUIWLAgQCXWXdj865gSNkjpCRrd/view?usp=sharing) | [Official page](https://actors-hq.com/) |
+| NeuMan | 8 | Monocular people moving through real environments | Monocular clips · approximately 10 s each | [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/abs/2203.12575) | [Repository: custom](https://github.com/apple/ml-neuman/blob/main/LICENSE) | [Official page](https://machinelearning.apple.com/research/neural-human-radiance-field) |
+| nuScenes | 8 | Autonomous-driving camera and LiDAR sequences | 1,000 scenes · 1.4M images · 6 cameras · 20 s each | [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027) | [CC-BY-NC-SA-4.0](https://www.nuscenes.org/terms-of-use) | [Official page](https://www.nuscenes.org/nuscenes#download) |
 | TUM RGB-D | 8 | RGB-D sequences with camera-pose ground truth | 39 sequences · RGB-D · 640×480 · 30 FPS | [A Benchmark for the Evaluation of RGB-D SLAM Systems](https://cvg.cit.tum.de/_media/spezial/bib/sturm12iros.pdf) | [CC-BY-4.0](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) | [Official page](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) |
 
 ### External benchmark watchlist
@@ -516,11 +946,11 @@ External datasets with verified direct dynamic-Gaussian use but fewer than eight
 
 | Dataset | Direct 4DGS papers | Adoption | Scale | Reference | Data license | Data / Project |
 | --- | ---: | --- | --- | --- | --- | --- |
-| DNA-Rendering | 5 | emerging | 500 identities × 3 outfits · 1,187 motions · 60 views | [DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering](https://arxiv.org/abs/2307.10173) | Not stated | [Official page](https://dna-rendering.github.io/) |
-| Nerfies | 5 | emerging | 4 scenes · monocular captures · 2-phone validation rig | [Nerfies: Deformable Neural Radiance Fields](https://arxiv.org/abs/2011.12948) | [CC-BY-SA-4.0](https://nerfies.github.io/) | [Official page](https://nerfies.github.io/) |
-| DAVIS | 4 | emerging | 50 sequences · 3,455 frames · 1080p · 24 FPS | [A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation](https://doi.org/10.1109/CVPR.2016.85) | Not stated | [Official page](https://davischallenge.org/) |
-| DiVa-360 | 1 | observed | 54 sequences · 17.4M frames · 53 cameras | [DiVa-360: The Dynamic Visual Dataset for Immersive Neural Fields](https://arxiv.org/abs/2307.16897) | Not stated | [Official page](https://ivl.cs.brown.edu/research/diva.html) |
-| Dynamic Furry Animal | 1 | observed | 9 animals · 36 cameras · 1920×1080 | [Artemis: Articulated Neural Pets with Appearance and Motion Synthesis](https://arxiv.org/abs/2202.05628) | [CC BY](https://haiminluo.github.io/publication/artemis/) | [Official page](https://haiminluo.github.io/publication/artemis/) |
+| DNA-Rendering | 5 | emerging | 500 identities × 3 outfits · 1,187 motions · 60 views | [DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering](https://arxiv.org/abs/2307.10173) | [DNA-Rendering License Agreement (non-commercial use)](https://dna-rendering.github.io/assets/img/download/DNA-RENDERING-license-agreement.pdf) | [Official page](https://dna-rendering.github.io/inner-download.html) |
+| Nerfies | 5 | emerging | 4 scenes · monocular captures · 2-phone validation rig | [Nerfies: Deformable Neural Radiance Fields](https://arxiv.org/abs/2011.12948) | [Repository: Apache-2.0](https://github.com/google/nerfies/blob/main/LICENSE) | [Official page](https://nerfies.github.io/) |
+| DAVIS | 4 | emerging | 50 sequences · 3,455 frames · 1080p · 24 FPS | [A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation](https://doi.org/10.1109/CVPR.2016.85) | [Annotations: CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) | [Official page](https://davischallenge.org/davis2017/code.html) |
+| DiVa-360 | 1 | observed | 54 sequences · 17.4M frames · 53 cameras | [DiVa-360: The Dynamic Visual Dataset for Immersive Neural Fields](https://arxiv.org/abs/2307.16897) | [Repository: MIT](https://github.com/brown-ivl/DiVa360/blob/main/LICENSE) | [Official page](https://ivl.cs.brown.edu/research/diva.html) |
+| Dynamic Furry Animal | 1 | observed | 9 animals · 36 cameras · 1920×1080 | [Artemis: Articulated Neural Pets with Appearance and Motion Synthesis](https://arxiv.org/abs/2202.05628) | Not stated | [Official page](https://haiminluo.github.io/publication/artemis/) |
 
 ### Additional dataset releases
 
@@ -529,8 +959,8 @@ Dataset-focused catalog entries not already represented by the recurring-benchma
 | Dataset | Paper (arXiv) | Scope | Scale | Data license | Data / Project |
 | --- | --- | --- | --- | --- | --- |
 | PackUV-2B | [PackUV: Packed Gaussian UV Maps for 4D Volumetric Video](https://arxiv.org/abs/2602.23040) | Long-duration multi-view volumetric video | 100 sequences · >2B frames · >50 cameras | Not stated | [Official page](https://ivl.cs.brown.edu/packuv/) |
-| 4DNeX-10M | [4DNeX: Feed-Forward 4D Generative Modeling Made Easy](https://arxiv.org/abs/2508.13154) | Large-scale animated-asset corpus | >10M pseudo-4D annotated frames | Not stated | [Official page](https://huggingface.co/datasets/3DTopia/4DNeX-10M) |
-| PhysGaia | [PhysGaia: A Physics-Aware Benchmark with Multi-Body Interactions for Dynamic Novel View Synthesis](https://arxiv.org/abs/2506.02794) | Physics-aware multi-body dynamic scenes | 17 scenes · 240 frames each · 4–6 views · 720×960 | Not stated | [Official page](https://huggingface.co/datasets/mijeongkim/PhysGaia/tree/main) |
+| 4DNeX-10M | [4DNeX: Feed-Forward 4D Generative Modeling Made Easy](https://arxiv.org/abs/2508.13154) | Large-scale animated-asset corpus | >10M pseudo-4D annotated frames | [Apache-2.0](https://huggingface.co/datasets/3DTopia/4DNeX-10M#license) | [Official page](https://huggingface.co/datasets/3DTopia/4DNeX-10M) |
+| PhysGaia | [PhysGaia: A Physics-Aware Benchmark with Multi-Body Interactions for Dynamic Novel View Synthesis](https://arxiv.org/abs/2506.02794) | Physics-aware multi-body dynamic scenes | 17 scenes · 240 frames each · 4–6 views · 720×960 | [CC-BY-NC-4.0](https://huggingface.co/datasets/mijeongkim/PhysGaia#license) | [Official page](https://huggingface.co/datasets/mijeongkim/PhysGaia/tree/main) |
 
 ## License
 
