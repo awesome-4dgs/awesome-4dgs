@@ -11,10 +11,10 @@ A curated list of papers, project pages, code, and datasets for dynamic Gaussian
 <!-- catalog-snapshot:start -->
 <div align="center">
 
-![ArXiv papers](https://img.shields.io/badge/arXiv_papers-351-0969da)
-![Direct dynamic GS](https://img.shields.io/badge/direct_dynamic_GS-329-1f883d)
+![ArXiv papers](https://img.shields.io/badge/arXiv_papers-352-0969da)
+![Direct dynamic GS](https://img.shields.io/badge/direct_dynamic_GS-330-1f883d)
 ![Project pages](https://img.shields.io/badge/project_pages-191-8250df)
-![Code repositories](https://img.shields.io/badge/code_repositories-143-bf8700)
+![Code repositories](https://img.shields.io/badge/code_repositories-144-bf8700)
 
 </div>
 <!-- catalog-snapshot:end -->
@@ -284,6 +284,7 @@ monocular category.
 ## Systems, compression, and streaming
 
 <!-- paper-category:start -->
+1. [TSOG: A Format For Temporally And Spatially Ordered Gaussians](https://arxiv.org/abs/2607.28049) (2026)
 1. [RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction](https://arxiv.org/abs/2606.29329) (2026) [[page]](https://miraymen.github.io/raga/)
 1. [DLGStream: Dynamic Language-embedded Guassian Splatting for Open-vocabulary Enabled Free-viewpoint Video Streaming](https://arxiv.org/abs/2606.28840) (2026) [[code]](https://github.com/kkkzh/DLGStream)
 1. [LentiAvatar: Pseudo-Multiview Reconstruction and Subpixel Prism Rendering for Real-Time Stereoscopic Communication](https://arxiv.org/abs/2606.10550) (2026)
@@ -348,10 +349,11 @@ monocular category.
 1. [A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis](https://arxiv.org/abs/2311.12897) (2023) [[page]](https://compactdynamic3dgaussian.github.io/) [[code]](https://github.com/raven38/EfficientDynamic3DGaussian)
 
 <details>
-<summary>Detailed contributions (62 papers)</summary>
+<summary>Detailed contributions (63 papers)</summary>
 
 | Paper (arXiv) | Key contributions |
 | --- | --- |
+| [TSOG: A Format For Temporally And Spatially Ordered Gaussians](https://arxiv.org/abs/2607.28049) (2026)<br><br><sub>efficiency &middot; compression &middot; explicit &middot; continuous-time</sub> | <ol><li>Defines a temporal extension of SOG for model-agnostic, index-aligned 4D Gaussian storage.</li><li>Adds per-Gaussian timelines and image-backed temporal parameterizations for geometry and appearance attributes.</li><li>Evaluates storage and rendered quality against PLY-sequence and FreeTimeGS baselines, and demonstrates PlayCanvas playback.</li></ol> |
 | [RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction](https://arxiv.org/abs/2606.29329) (2026)<br><br>[![Project page](https://img.shields.io/badge/-0969da?logo=googleearth&logoColor=white)](https://miraymen.github.io/raga/ "Project page")<br><sub>efficiency &middot; human &middot; deformable-3dgs &middot; real-time &middot; physics-aware</sub> | <ol><li>Introduces RAGA, a Ray-Traced Gaussian Shadow Casting formulation based on exact ray-Gaussian line integrals.</li><li>Performs shadow computation entirely in Gaussian space, without requiring any mesh reconstruction.</li></ol> |
 | [DLGStream: Dynamic Language-embedded Guassian Splatting for Open-vocabulary Enabled Free-viewpoint Video Streaming](https://arxiv.org/abs/2606.28840) (2026)<br><br>[![Functional GitHub repository](https://img.shields.io/badge/-1f883d?logo=github&logoColor=white)](https://github.com/kkkzh/DLGStream "Functional GitHub repository")<br><sub>efficiency &middot; multi-view &middot; segmentation &middot; deformable-3dgs &middot; streaming &middot; editing</sub> | <ol><li>Introduces DLGStream, a language-embedded FVV representation that streams time-varying language features alongside Gaussian attributes to support 4D environment interaction, scene editing, and spatial intelligence.</li><li>Maintains two opacity attributes for color and language features to deal with performance degradation that occurs when colors and features are jointly optimized.</li><li>DLGStream achieves performance in both on open-vocabulary segmentation and reconstruction quality with an average frame size of merely 43 KB.</li></ol> |
 | [LentiAvatar: Pseudo-Multiview Reconstruction and Subpixel Prism Rendering for Real-Time Stereoscopic Communication](https://arxiv.org/abs/2606.10550) (2026)<br><br><sub>efficiency &middot; monocular &middot; multi-view &middot; real-time &middot; driving &middot; human</sub> | <ol><li>LentiAvatar connects monocular avatar capture with subpixel-encoded glasses-free lenticular display for real-time autostereoscopic communication.</li><li>From a monocular portrait video, LentiAvatar reconstructs a controllable head avatar and optimizes it for the lateral viewing zones induced by the display.</li><li>Uses natural head turns as pseudo-multiview (PMV) supervision to constrain regions that are otherwise weakly observed in monocular training, including hair, ears, jaw contours, and neck boundaries.</li></ol> |
@@ -1071,7 +1073,7 @@ labeled and do not imply a dataset license.
 
 | Dataset | Access | 4DGS use | Details | License |
 | --- | --- | --- | --- | --- |
-| Neural 3D Video<br>[[paper]](https://arxiv.org/abs/2103.02597) [[page]](https://github.com/facebookresearch/Neural_3D_Video) | Public | 107 papers · recurring | Synchronized multi-view dynamic scenes<br><sub>6 scenes · 300-frame clips · 18–21 cameras · 2704×2028 @ 30 FPS</sub> | [CC-BY-NC-4.0](https://github.com/facebookresearch/Neural_3D_Video/blob/main/LICENSE) |
+| Neural 3D Video<br>[[paper]](https://arxiv.org/abs/2103.02597) [[page]](https://github.com/facebookresearch/Neural_3D_Video) | Public | 108 papers · recurring | Synchronized multi-view dynamic scenes<br><sub>6 scenes · 300-frame clips · 18–21 cameras · 2704×2028 @ 30 FPS</sub> | [CC-BY-NC-4.0](https://github.com/facebookresearch/Neural_3D_Video/blob/main/LICENSE) |
 | D-NeRF<br>[[paper]](https://arxiv.org/abs/2011.13961) [[page]](https://www.albertpumarola.com/research/D-NeRF/index.html) | Public | 49 papers · recurring | Synthetic monocular dynamic scenes<br><sub>8 scenes · 50–200 train + 20 test images · 800×800</sub> | [Dataset license not stated · repo MIT](https://github.com/albertpumarola/D-NeRF/blob/main/LICENSE) |
 | HyperNeRF<br>[[paper]](https://arxiv.org/abs/2106.13228) [[page]](https://hypernerf.github.io/) | Public | 47 papers · recurring | Casual monocular non-rigid and topology-changing scenes<br><sub>17 scenes · monocular captures · validation rigs</sub> | [Dataset license not stated · repo Apache-2.0](https://github.com/google/hypernerf/blob/main/LICENSE) |
 | DyCheck iPhone<br>[[paper]](https://arxiv.org/abs/2210.13445) [[page]](https://kair-bair.github.io/dycheck/) | Public | 35 papers · recurring | Casual monocular dynamic iPhone captures<br><sub>14 sequences · 7 with multi-camera validation</sub> | [Apache-2.0](https://github.com/KAIR-BAIR/dycheck/blob/main/LICENSE) |
@@ -1086,7 +1088,7 @@ labeled and do not imply a dataset license.
 | PeopleSnapshot<br>[[paper]](https://arxiv.org/abs/1803.04758) [[page]](https://vcai.mpi-inf.mpg.de/projects/wxu/VideoAvatar/) | Public | 10 papers · recurring | Monocular videos of clothed people rotating in place<br><sub>24 sequences · 11 subjects · 300–800 frames each</sub> | Not stated |
 | Bonn RGB-D Dynamic<br>[[paper]](https://arxiv.org/abs/1905.02082) [[page]](https://www.ipb.uni-bonn.de/data/rgbd-dynamic-dataset/) | Public | 9 papers · recurring | Dynamic RGB-D sequences for tracking and SLAM<br><sub>26 sequences · monocular RGB-D · 640×480</sub> | Not stated |
 | NeRSemble<br>[[paper]](https://arxiv.org/abs/2305.03027) [[page]](https://tobias-kirschstein.github.io/nersemble/) | Gated | 9 papers · recurring | High-resolution multi-view facial performances<br><sub>>4,700 sequences · >220 subjects · 16 cameras</sub> | Not stated |
-| TUM RGB-D<br>[[paper]](https://cvg.cit.tum.de/_media/spezial/bib/sturm12iros.pdf) [[page]](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) | Public | 9 papers · recurring | RGB-D sequences with camera-pose ground truth<br><sub>39 sequences · RGB-D · 640×480 · 30 FPS</sub> | [CC-BY-4.0](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) |
+| TUM RGB-D<br>[[paper]](https://cvg.cit.tum.de/_media/spezial/bib/sturm12iros.pdf) [[page]](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) | Public | 9 papers · recurring | RGB-D sequences with camera-pose ground truth<br><sub>39 sequences · RGB-D · 640×480 · 30 FPS</sub> | [CC-BY-4.0](https://cvg.cit.tum.de/data/datasets/rgbd-dataset#license) |
 | ActorsHQ<br>[[paper]](https://arxiv.org/abs/2305.06356) [[page]](https://actors-hq.com/) | Gated | 8 papers · recurring | High-resolution multi-view human performances<br><sub>16 sequences · 39,765 frames · 160 cameras</sub> | [ActorsHQ License Agreement](https://drive.google.com/file/d/1QpZIhsUIWLAgQCXWXdj865gSNkjpCRrd/view?usp=sharing) |
 | NeuMan<br>[[paper]](https://arxiv.org/abs/2203.12575) [[page]](https://machinelearning.apple.com/research/neural-human-radiance-field) | Public | 8 papers · recurring | Monocular people moving through real environments<br><sub>Monocular clips · approximately 10 s each</sub> | Not stated |
 | nuScenes<br>[[paper]](https://arxiv.org/abs/1903.11027) [[page]](https://www.nuscenes.org/nuscenes#download) | Gated | 8 papers · recurring | Autonomous-driving camera and LiDAR sequences<br><sub>1,000 scenes · 1.4M images · 6 cameras · 20 s each</sub> | [CC-BY-NC-SA-4.0](https://www.nuscenes.org/terms-of-use) |
