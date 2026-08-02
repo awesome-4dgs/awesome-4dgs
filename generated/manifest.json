@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "contract_version": "atlas-catalog-v1",
+  "topic_id": "4dgs",
+  "config_hash": "0a5ac0cb9ffaedf1f856d747cd103d872347e6a1e4d98ef17f58a24ea7828ff4",
+  "source_revision": "4fb1bedad6fb1204f15dcba2501de46fa99c5ff1",
+  "build_revision": "19ae4d41fc693405d081a6e36f0415fa44492e0f8c93ffc37d63138edc8fff8b",
+  "generated_at": "2026-08-02T07:09:09-04:00",
+  "minimum_atlas_version": "0.1.0",
+  "status": "complete",
+  "record_counts": {
+    "datasets": 265,
+    "implementation-graph": 651,
+    "licenses": 265,
+    "methods": 351,
+    "paper-dossiers": 7,
+    "paper-network": 2337,
+    "papers": 362,
+    "topic": 1
+  },
+  "files": [
+    {
+      "path": "datasets.json",
+      "bytes": 442324,
+      "sha256": "ee18c0b7ce4333821397172e039c97995e7df4a544efeebbb4e4ecb361c4a575",
+      "records": 265
+    },
+    {
+      "path": "implementation-graph.json",
+      "bytes": 938796,
+      "sha256": "f12591ac295c2b774485a256655b08fdf8339d592304d53b05a234d107cf572c",
+      "records": 651
+    },
+    {
+      "path": "licenses.json",
+      "bytes": 96672,
+      "sha256": "bfb35adeb0f8df02ae17519ea2bdd8696f7b30232fdc0b93be97e29935a389cb",
+      "records": 265
+    },
+    {
+      "path": "methods.json",
+      "bytes": 13698444,
+      "sha256": "1381fb670d38b6728f591d284969002bf671fbfe57d604d558dc59d7b706104a",
+      "records": 351
+    },
+    {
+      "path": "paper-dossiers.json",
+      "bytes": 33268,
+      "sha256": "bffca3322e64daa9ce194dd396a7b249a6f358cd8d754f48e6b019b652e249dc",
+      "records": 7
+    },
+    {
+      "path": "paper-network.json",
+      "bytes": 2381977,
+      "sha256": "a3d2e3a58bef2ade666059143e222d64aa1c2558df45350aaa6d4161d13709d7",
+      "records": 2337
+    },
+    {
+      "path": "papers.json",
+      "bytes": 303877,
+      "sha256": "2460324fa56bb9f1df381562a2e7fa6e32a6b37bef7a7d3f28053868bdc5e712",
+      "records": 362
+    },
+    {
+      "path": "topic.json",
+      "bytes": 1419,
+      "sha256": "05f8fa11065786fbda20af78f64a9fef9df108cb153b4d13a924a3aa66a66dc9",
+      "records": 1
+    }
+  ]
+}

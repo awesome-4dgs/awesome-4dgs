@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "base_path": "/awesome-4dgs",
+  "bundle_sha256": "86d0e85d4cdef3ecabab85d2c541d0f61a94293dd9ddf2aecf5c10c4e4966901",
+  "source_revision": "4fb1bedad6fb1204f15dcba2501de46fa99c5ff1",
+  "build_fingerprint": "ce19cec237d367a975854b7f176b92a4d47adea8adfe8d9c3778c74368a39f86",
+  "files": 90,
+  "bytes": 19909965
+}
